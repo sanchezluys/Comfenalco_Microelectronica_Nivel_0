@@ -1,63 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
-  <style>
-    .reveal .footer {
-      position: absolute;
-      bottom: 1em;
-      left: 1em;
-      font-size: 0.5em;
-      color: #fff;
-    }
-    .reveal .slide-background {
-      opacity: 0.5;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microelectrónica Nivel 0 - Comfenalco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css">
+    <style>
+        .reveal section img { max-height: 65vh; margin: 0; }
+        .reveal .footer {
+            position: absolute;
+            bottom: 1em;
+            left: 1em;
+            font-size: 0.5em;
+            color: #333;
+        }
+        .reveal .slides section .fragment.fade-up {
+            opacity: 0;
+            transform: translate(0, 20px);
+        }
+        .reveal .slides section .fragment.fade-up.visible {
+            opacity: 1;
+            transform: translate(0, 0);
+        }
+    </style>
 </head>
 <body>
-  <div class="reveal">
-    <div class="slides">
-      <section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
-        <h1>Microelectrónica</h1>
-        <p>Nivel 0: Para Técnicos</p>
-        <div class="footer">Autor: Tu Nombre</div>
-      </section>
-      <section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
-        <h2>Slide 2</h2>
-        <p>Contenido del slide 2</p>
-        <div class="footer">Autor: Tu Nombre</div>
-      </section>
+    <div class="reveal">
+        <div class="slides">
+            <section data-background-gradient="linear-gradient(to bottom, #87CEEB, #E6E6FA)">
+                <h1>Microelectrónica Nivel 0 🔬</h1>
+                <h3>Fundamentos y Aplicaciones</h3>
+                <p>Presentado por: Luys Sanchez</p>
+                <aside class="notes">
+                    Bienvenidos al curso de Microelectrónica Nivel 0. En esta presentación, exploraremos los fundamentos básicos de la microelectrónica y sus aplicaciones.
+                </aside>
+            </section>
 
-      <section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
-        <h2>Slide 2</h2>
-        <p>Contenido del slide 2</p>
-        <div class="footer">Autor: Tu Nombre</div>
-      </section>
+            <section>
+                <h2>¿Qué es la Microelectrónica? 🤔</h2>
+                <ul>
+                    <li class="fragment fade-up">Estudio y fabricación de componentes electrónicos muy pequeños</li>
+                    <li class="fragment fade-up">Base de la tecnología moderna</li>
+                    <li class="fragment fade-up">Aplicaciones en computadoras, smartphones, y más</li>
+                </ul>
+                <aside class="notes">
+                    Explicar la importancia de la microelectrónica en el mundo moderno y su impacto en la tecnología cotidiana.
+                </aside>
+            </section>
 
-      <section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
-        <h2>Slide 2</h2>
-        <p>Contenido del slide 2</p>
-        <div class="footer">Autor: Tu Nombre</div>
-      </section>
+            <section data-background="#FFD700">
+                <h2>Componentes Básicos 🔧</h2>
+                <div class="fragment fade-up">
+                    <h3>Resistencias</h3>
+                    <img src="/api/placeholder/300/200" alt="Imagen de resistencias">
+                </div>
+                <div class="fragment fade-up">
+                    <h3>Capacitores</h3>
+                    <img src="/api/placeholder/300/200" alt="Imagen de capacitores">
+                </div>
+                <div class="fragment fade-up">
+                    <h3>Transistores</h3>
+                    <img src="/api/placeholder/300/200" alt="Imagen de transistores">
+                </div>
+                <aside class="notes">
+                    Describir brevemente cada componente y su función en los circuitos electrónicos.
+                </aside>
+            </section>
 
-      <section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
-        <h2>Slide 2</h2>
-        <p>Contenido del slide 2</p>
-        <div class="footer">Autor: Tu Nombre</div>
-      </section>
+            <section>
+                <h2>Circuitos Integrados 💻</h2>
+                <p class="fragment fade-up">Combinación de múltiples componentes en un solo chip</p>
+                <img src="/api/placeholder/400/300" alt="Imagen de un circuito integrado" class="fragment fade-up">
+                <p class="fragment fade-up">Permiten la miniaturización de dispositivos electrónicos 📱</p>
+                <aside class="notes">
+                    Explicar cómo los circuitos integrados revolucionaron la electrónica y permitieron el desarrollo de dispositivos más pequeños y potentes.
+                </aside>
+            </section>
 
+            <section data-background-gradient="linear-gradient(to right, #FFA07A, #20B2AA)">
+                <h2>Aplicaciones Prácticas 🛠️</h2>
+                <ul>
+                    <li class="fragment fade-up">Computadoras personales</li>
+                    <li class="fragment fade-up">Teléfonos inteligentes</li>
+                    <li class="fragment fade-up">Dispositivos médicos</li>
+                    <li class="fragment fade-up">Sistemas de control industrial</li>
+                </ul>
+                <aside class="notes">
+                    Discutir cómo la microelectrónica ha impactado diversos campos y mejorado nuestra vida cotidiana.
+                </aside>
+            </section>
 
+            <section>
+                <h2>El Futuro de la Microelectrónica 🚀</h2>
+                <ul>
+                    <li class="fragment fade-up">Nanotecnología</li>
+                    <li class="fragment fade-up">Computación cuántica</li>
+                    <li class="fragment fade-up">Inteligencia artificial integrada</li>
+                </ul>
+                <p class="fragment fade-up">¡El límite es nuestra imaginación! 🌟</p>
+                <aside class="notes">
+                    Hablar sobre las tendencias futuras y cómo la microelectrónica seguirá evolucionando y transformando la tecnología.
+                </aside>
+            </section>
+
+            <section>
+                <h2>¡Gracias por su atención! 👏</h2>
+                <p>¿Preguntas?</p>
+                <img src="/api/placeholder/400/300" alt="Imagen de cierre" class="fragment fade-up">
+                <aside class="notes">
+                    Agradecer a la audiencia y abrir espacio para preguntas y discusión.
+                </aside>
+            </section>
+        </div>
     </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
-  <script>
-    Reveal.initialize({
-      dependencies: [
-        { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js', async: true }
-      ]
-    });
-  </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            transitionSpeed: 'fast',
+            slideNumber: true,
+            plugins: [ RevealNotes ]
+        });
+
+        // Agregar pie de página a todas las diapositivas
+        Reveal.addEventListener('ready', function(event) {
+            var footer = document.createElement('div');
+            footer.classList.add('footer');
+            footer.textContent = 'Autor: Luis Sánchez | Comfenalco Microelectrónica Nivel 0';
+            
+            var slides = document.querySelectorAll('.reveal .slides section');
+            slides.forEach(function(slide) {
+                slide.appendChild(footer.cloneNode(true));
+            });
+        });
+    </script>
 </body>
 </html>
