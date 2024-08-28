@@ -54,7 +54,11 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
   <script>
-    Reveal.initialize();
+    Reveal.initialize({
+      dependencies: [
+        { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js', async: true }
+      ]
+    });
   </script>
 </body>
 </html>
