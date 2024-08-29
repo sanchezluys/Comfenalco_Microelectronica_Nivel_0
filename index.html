@@ -1,49 +1,40 @@
 <!doctype html>
-<html lang="es">
-<head>
-    <meta charset="utf-8">
-    <title>Comfenalco Microelectrónica Nivel 0</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<div class="reveal">
-    <div class="slides">
-        <section>
-            <h1>Comfenalco Microelectrónica Nivel 0</h1>
-            <p>🚀 Bienvenido al curso 🚀</p>
-        </section>
-        <section>
-            <h2>📘 Sobre el curso</h2>
-            <p>Introducción a la Microelectrónica para principiantes.</p>
-        </section>
-        <section>
-            <h2>🌟 Contenidos</h2>
-            <ul>
-                <li>Capítulo 1: Introducción a la Microelectrónica</li>
-                <li>Capítulo 2: Componentes Básicos</li>
-                <li>Capítulo 3: Circuitos Sencillos</li>
-                <li>Capítulo 4: Aplicaciones Prácticas</li>
-            </ul>
-        </section>
-        <section>
-            <h2>🚀 ¡Comienza ahora!</h2>
-            <p>Explora el repositorio en GitHub y conéctate en LinkedIn.</p>
-        </section>
-        <section>
-            <h2>👨‍💻 Hecho por Luis Sánchez</h2>
-            <p>Con 💙 para los estudiantes de Microelectrónica.</p>
-        </section>
-    </div>
-</div>
+		<title>reveal.js</title>
 
-<script src="reveal.js/dist/reveal.js"></script>
-<script>
-    Reveal.initialize();
-</script>
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
 
-</body>
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
 </html>
