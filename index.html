@@ -493,9 +493,9 @@
 				
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
 					<div class="r-hstack justify-center">
-						<div data-id="box1" data-auto-animate-delay="0" style="background: rgba(0, 153, 255, 0.74); width: 300px; height: 200px; margin: 10px;">R<img  src="img/r_simbolo.png" /></div>
-						<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 300px; height: 200px; margin: 10px;">L<img  src="img/l_simbolo.png" /></div>
-						<div data-id="box3" data-auto-animate-delay="0.2" style="background: rgba(0, 255, 34, 0.466); width: 300px; height: 200px; margin: 10px;">C<img  src="img/c_simbolo.png" /></div>
+						<div data-id="box1" data-auto-animate-delay="0" style="background: rgba(0, 153, 255, 0.74); width: 500px; height: 300px; margin: 10px;">R<img  src="img/r_simbolo.png" alt="R simbolo" /></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 500px; height: 300px; margin: 10px;">L<img  src="img/l_simbolo.png" alt="L simbolo" /></div>
+						<div data-id="box3" data-auto-animate-delay="0.2" style="background: rgba(0, 255, 34, 0.466); width: 500px; height: 300px; margin: 10px;">C<img  src="img/c_simbolo.png" alt="C simbolo"/></div>
 					</div>
 					<h4 style="margin-top: 20px;">Símbolos Normas [IEC] [DIN] [ANSI]</h4>
 				</section>
@@ -549,22 +549,226 @@
 					<h4>Midiendo Capacitancia</h4>
 					<div style="display: flex; align-items: flex-start; justify-content: space-between;">
 						<!-- Imagen a la izquierda -->
-						<div style="flex: 0 0 40%; text-align: center;">
+						<div style="flex: 0 0 60%; text-align: center;">
 							<img src="img/capacitores/medir_capacitor.png" alt="medir capacitancia" style="max-height: 500px; width: auto; background: transparent;" class="demo-logo">
 						</div>
 						
 						<!-- Listado a la derecha con texto más pequeño y mejor ajuste -->
-						<div style="flex: 1; font-size: 0.7em; max-height: 300px; overflow-y: auto; padding-left: 10px;">
+						<div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
 							<ol>
 								<li>Con ohmios - se carga y descarga </li>
 								<li>Con capacimetro</li>
 								<li>Con medidor ESR</li>
-								<li>⚠️ Siempre se debe descargar primero ⚠️</li>
+								
 							</ol>
+							<hr>
+							<p>⚠️ Siempre se debe descargar primero ⚠️</p>
+							<p>⚠️ Riesgo Electrico ⚠️</p>
 						</div>
 					</div>
 				</section>
 
+				<section>
+					<h5>Carta de Fallas del Capacitor</h5>
+				
+					<div style="flex: 1; font-size: 0.5em; max-height: 500px; max-width: 100%;  overflow-y: auto; padding-left: 10px;">
+				
+						<table>
+							<thead>
+								<tr>
+									<th style="vertical-align: middle;">🚫 Falla</th>
+									<th style="vertical-align: middle;">📝 Descripción</th>
+									<th style="vertical-align: middle;">🔍 Posibles Causas</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td style="vertical-align: middle;">Cortocircuito</td>
+									<td style="vertical-align: middle;">El capacitor presenta una resistencia muy baja o nula entre sus
+										terminales.</td>
+									<td style="vertical-align: middle;">
+										<ul>
+											<li>Exceso de voltaje aplicado</li>
+											<li>Deterioro del dieléctrico</li>
+											<li>Defecto de fabricación</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td style="vertical-align: middle;">Capacidad Reducida</td>
+									<td style="vertical-align: middle;">El valor de capacidad es menor al especificado.</td>
+									<td style="vertical-align: middle;">
+										<ul>
+											<li>Envejecimiento</li>
+											<li>Temperatura excesiva</li>
+											<li>Fugas internas</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td style="vertical-align: middle;">Fugas de Corriente</td>
+									<td style="vertical-align: middle;">El capacitor permite el paso de corriente continua.</td>
+									<td style="vertical-align: middle;">
+										<ul>
+											<li>Deterioro del dieléctrico</li>
+											<li>Contaminación interna</li>
+											<li>Daño físico</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td style="vertical-align: middle;">Capacitor Abierto</td>
+									<td style="vertical-align: middle;">El capacitor no presenta continuidad entre sus terminales.</td>
+									<td style="vertical-align: middle;">
+										<ul>
+											<li>Conexiones internas rotas</li>
+											<li>Daño mecánico</li>
+											<li>Defecto de fabricación</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td style="vertical-align: middle;">Pérdida de Capacitancia</td>
+									<td style="vertical-align: middle;">El capacitor pierde su capacidad de almacenar carga con el
+										tiempo.</td>
+									<td style="vertical-align: middle;">
+										<ul>
+											<li>Envejecimiento</li>
+											<li>Ciclos térmicos</li>
+											<li>Sobrecarga</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td style="vertical-align: middle;">Sobrecalentamiento</td>
+									<td style="vertical-align: middle;">El capacitor se calienta excesivamente durante su operación.
+									</td>
+									<td style="vertical-align: middle;">
+										<ul>
+											<li>Exceso de corriente</li>
+											<li>Ventilación inadecuada</li>
+											<li>Deterioro del dieléctrico</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td style="vertical-align: middle;">Explosión</td>
+									<td style="vertical-align: middle;">El capacitor se rompe o explota.</td>
+									<td style="vertical-align: middle;">
+										<ul>
+											<li>Exceso de voltaje</li>
+											<li>Polaridad invertida</li>
+											<li>Defecto de fabricación</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+				
+					</div>
+				
+				
+				</section>
+
+
+				<section>
+					<section>
+						<h4>El Inductor - Bobina - Solenoide - Coil</h4>
+						<img src="img/inductores/inductor.jpg" alt="Inductor"
+							style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				
+						<br>
+						<a href="#/42/13" class="navigate-down">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="150"
+								data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+				
+					<section>
+						<h4>Bobinas discretas</h4>
+						<img src="img/inductores/l_1.jpg" alt="tipos"
+							style="height: 500px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+
+					<section>
+						<h4>Bobinas discretas 2</h4>
+						<img src="img/inductores/l_dis_2.webp" alt="l discretas"
+							style="height: 500px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+				
+					<section>
+						<h4>Tipo de Bobinas</h4>
+						<img src="img/inductores/l_2.jpg" alt="tipos boninas"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+				
+					<section>
+						<h4>Modelos</h4>
+						<img src="img/inductores/l_3.webp" alt="modelos variados"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+				
+					<section>
+						<h4>Toroidales</h4>
+						<img src="img/inductores/l_toroide.png" alt="toroidal" style="height: 500px; margin: 0 auto 4rem auto; background: transparent;"
+							class="demo-logo">
+					</section>
+				
+					<section>
+						<h4>Tipo SMD 1</h4>
+						<img src="img/inductores/l_smd_1.jpg" alt="bobinas smd"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+
+					<section>
+						<h4>Tipo SMD 2</h4>
+						<img src="img/inductores/l_smd_2.webp" alt="bobinas smd2"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+
+					<section>
+						<h4>Tipo SMD 3</h4>
+						<img src="img/inductores/l_smd_3.jpg" alt="bobinas smd3"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+
+					<section>
+						<h4>Tipo SMD 4</h4>
+						<img src="img/inductores/l_smd_4.webp" alt="bobinas smd4"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+
+					<section>
+						<h4>Tipo SMD 5</h4>
+						<img src="img/inductores/l_smd_5.webp" alt="bobinas smd5"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+
+					<section>
+						<h4>Tipo SMD 6</h4>
+						<img src="img/inductores/l_smd_6.jpg" alt="bobinas smd6"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+					
+					<section>
+						<h4>Tipo SMD 7</h4>
+						<img src="img/inductores/l_smd_7.jpg" alt="bobinas smd7"
+							style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</section>
+
+					<section>
+						<h4>Tipo SMD 8</h4>
+						
+						<img src="img/inductores/l_smd_8.webp" alt="bobinas smd8" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;"
+							class="demo-logo">
+						<br>
+						<a href="#/42">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178"
+								height="200" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+						</a>
+					</section>
+				
+				</section>
 
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
 					<div class="r-stack">
@@ -628,95 +832,102 @@
 				</section>
 
 				<section>
-					<h2>Tabla de Fallas Comunes de Capacitores</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Falla</th>
-								<th>Descripción</th>
-								<th>Posibles Causas</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Cortocircuito</td>
-								<td>El capacitor presenta una resistencia muy baja o nula entre sus terminales.</td>
-								<td>
-									<ul>
-										<li>Exceso de voltaje aplicado</li>
-										<li>Deterioro del dieléctrico</li>
-										<li>Defecto de fabricación</li>
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<td>Capacidad Reducida</td>
-								<td>El valor de capacidad es menor al especificado.</td>
-								<td>
-									<ul>
-										<li>Envejecimiento</li>
-										<li>Temperatura excesiva</li>
-										<li>Fugas internas</li>
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<td>Fugas de Corriente</td>
-								<td>El capacitor permite el paso de corriente continua.</td>
-								<td>
-									<ul>
-										<li>Deterioro del dieléctrico</li>
-										<li>Contaminación interna</li>
-										<li>Daño físico</li>
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<td>Capacitor Abierto</td>
-								<td>El capacitor no presenta continuidad entre sus terminales.</td>
-								<td>
-									<ul>
-										<li>Conexiones internas rotas</li>
-										<li>Daño mecánico</li>
-										<li>Defecto de fabricación</li>
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<td>Pérdida de Capacitancia</td>
-								<td>El capacitor pierde su capacidad de almacenar carga con el tiempo.</td>
-								<td>
-									<ul>
-										<li>Envejecimiento</li>
-										<li>Ciclos térmicos</li>
-										<li>Sobrecarga</li>
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<td>Sobrecalentamiento</td>
-								<td>El capacitor se calienta excesivamente durante su operación.</td>
-								<td>
-									<ul>
-										<li>Exceso de corriente</li>
-										<li>Ventilación inadecuada</li>
-										<li>Deterioro del dieléctrico</li>
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<td>Explosión</td>
-								<td>El capacitor se rompe o explota.</td>
-								<td>
-									<ul>
-										<li>Exceso de voltaje</li>
-										<li>Polaridad invertida</li>
-										<li>Defecto de fabricación</li>
-									</ul>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+					<h5>Tabla de Fallas Comunes de Capacitores</h5>
+
+					<div style="flex: 1; font-size: 0.5em; max-height: 500px; max-width: 100%;  overflow-y: auto; padding-left: 10px;">
+						
+							<table>
+								<thead>
+									<tr>
+										<th style="vertical-align: middle;">🚫 Falla</th>
+										<th style="vertical-align: middle;">📝 Descripción</th>
+										<th style="vertical-align: middle;">🔍 Posibles Causas</th>
+									</tr>
+								</thead>
+								<tbody >
+									<tr >
+										<td style="vertical-align: middle;">Cortocircuito</td>
+										<td style="vertical-align: middle;">El capacitor presenta una resistencia muy baja o nula entre sus terminales.</td>
+										<td style="vertical-align: middle;">
+											<ul>
+												<li>Exceso de voltaje aplicado</li>
+												<li>Deterioro del dieléctrico</li>
+												<li>Defecto de fabricación</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td style="vertical-align: middle;">Capacidad Reducida</td>
+										<td style="vertical-align: middle;">El valor de capacidad es menor al especificado.</td>
+										<td style="vertical-align: middle;">
+											<ul>
+												<li>Envejecimiento</li>
+												<li>Temperatura excesiva</li>
+												<li>Fugas internas</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td style="vertical-align: middle;">Fugas de Corriente</td>
+										<td style="vertical-align: middle;">El capacitor permite el paso de corriente continua.</td>
+										<td style="vertical-align: middle;">
+											<ul>
+												<li>Deterioro del dieléctrico</li>
+												<li>Contaminación interna</li>
+												<li>Daño físico</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td style="vertical-align: middle;">Capacitor Abierto</td>
+										<td style="vertical-align: middle;">El capacitor no presenta continuidad entre sus terminales.</td>
+										<td style="vertical-align: middle;">
+											<ul>
+												<li>Conexiones internas rotas</li>
+												<li>Daño mecánico</li>
+												<li>Defecto de fabricación</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td style="vertical-align: middle;">Pérdida de Capacitancia</td>
+										<td style="vertical-align: middle;">El capacitor pierde su capacidad de almacenar carga con el tiempo.</td>
+										<td style="vertical-align: middle;">
+											<ul>
+												<li>Envejecimiento</li>
+												<li>Ciclos térmicos</li>
+												<li>Sobrecarga</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td style="vertical-align: middle;">Sobrecalentamiento</td>
+										<td style="vertical-align: middle;">El capacitor se calienta excesivamente durante su operación.</td>
+										<td style="vertical-align: middle;">
+											<ul>
+												<li>Exceso de corriente</li>
+												<li>Ventilación inadecuada</li>
+												<li>Deterioro del dieléctrico</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td style="vertical-align: middle;">Explosión</td>
+										<td style="vertical-align: middle;">El capacitor se rompe o explota.</td>
+										<td style="vertical-align: middle;">
+											<ul>
+												<li>Exceso de voltaje</li>
+												<li>Polaridad invertida</li>
+												<li>Defecto de fabricación</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						
+					</div>
+
+					
 				</section>
 				
 
