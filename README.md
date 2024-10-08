@@ -1,7 +1,20 @@
 # Comfenalco_Microelectronica_Nivel_0
 
 # 🔬 Curso de Microelectrónica Nivel 0 - Comfenalco 🚀
+>[!NOTE]
+>nota
 
+>[!WARNING]
+> Advertencia
+
+>[!TIP]
+> Tips
+
+>[!IMPORTANT]
+> Importante
+
+>[!CAUTION]
+> nota
 
 ## 📚 Descripción del Curso
 
