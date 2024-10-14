@@ -1592,10 +1592,11 @@
 						<h4>Midiendo TRIACs</h4>
 						<div style="display: flex; align-items: flex-start; justify-content: space-between;">
 							<div style="flex: 0 0 75%; text-align: center;">
-								<img src="img/scr/scr_test_1.png" alt="paso 1 test scr"
+								<img src="img/triac/triac_test_1.png" alt="paso 1 test triac"
 									style="max-height: 700px; width: auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
 									class="demo-logo">
 							</div>
+							<!-- autor: https://www.youtube.com/watch?v=SGLd3VeY2zI -->
 							<div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
 								<ol>
 									<li>Con Multímetro en escala de ohmios</li>
@@ -1603,45 +1604,45 @@
 									<li>Con medidor ESR</li>
 								</ol>
 								<hr>
-								<il>1. Verificar que el T1 y T2 no esten en corto. Deben dar `0L` en ambos sentidos
+								<il>1. Verificar que el MT1 y MT2 no esten en corto. Deben dar `0L` en ambos sentidos
 								</il>
 							</div>
 						</div>
 						<br>
-						<a href="#/62/5" class="navigate-down">
-							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="120" height="120"
+						<a href="#/67/5" class="navigate-down">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="100" height="100"
 								data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
 						</a>
 					</section>
 					<section>
-						<h4>Polarización Inversa</h4>
-						<img src="img/scr/scr_test_2.png" alt="scr test 2"
-							style="height: 450px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+						
+						<img src="img/triac/triac_test_2.png" alt="triac test 2"
+							style="height: 500px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
 							class="demo-logo">
 					</section>
 				
 					<section>
-						<h4>Polarización Directa - Ver Voltaje de polarización</h4>
-						<img src="img/scr/scr_test_3.png" alt="scr test 3"
-							style="height: 450px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+						<h4>Activación de compuerta G</h4>
+						<img src="img/triac/triac_test_3.png" alt="triac test 3"
+							style="height: 500px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
 							class="demo-logo">
 					</section>
 				
 					<section>
-						<h4>SCRs Activación</h4>
-						<img src="img/scr/scr_test_4.png" alt="scr test 4"
-							style="height: 450px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+						
+						<img src="img/triac/triac_test_4.png" alt="triac test 4"
+							style="height: 500px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
 							class="demo-logo">
 						<br>
-						<a href="#/62">
-							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="120"
-								height="120" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+						<a href="#/67">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="100"
+								height="100" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
 						</a>
 					</section>
 				</section>
 				
 				<section>
-					<h5>Carta de Fallas del SCR</h5>
+					<h5>Carta de Fallas del TRIAC</h5>
 				
 					<div style="flex: 1; font-size: 0.5em; max-height: 500px; max-width: 100%; overflow-y: auto; padding-left: 10px;">
 				
@@ -1656,18 +1657,18 @@
 							<tbody>
 								<tr>
 									<td>🔥 <strong>Cortocircuito</strong></td>
-									<td>El SCR permite el paso de corriente continuamente sin poder apagarlo, resultando en una
+									<td>El TRIAC permite el paso de corriente en ambas direcciones sin control, resultando en una
 										conducción permanente.</td>
 									<td>
-										- Exceso de corriente en el ánodo.<br>
+										- Exceso de corriente en los terminales principales.<br>
 										- Fallo en la compuerta de disparo.<br>
 										- Sobrecalentamiento del dispositivo.
 									</td>
 								</tr>
 								<tr>
 									<td>💨 <strong>Sobrecalentamiento</strong></td>
-									<td>El SCR se calienta excesivamente debido a una disipación inadecuada o a la conducción continua.
-									</td>
+									<td>El TRIAC se calienta excesivamente debido a una disipación inadecuada o a la conducción continua
+										en ambas direcciones.</td>
 									<td>
 										- Exceso de corriente aplicada.<br>
 										- Ventilación insuficiente.<br>
@@ -1676,37 +1677,37 @@
 								</tr>
 								<tr>
 									<td>💥 <strong>Falla de disparo</strong></td>
-									<td>El SCR no puede activarse correctamente cuando se aplica el pulso de disparo en la compuerta.
-									</td>
+									<td>El TRIAC no responde correctamente cuando se aplica el pulso de disparo en la compuerta.</td>
 									<td>
 										- Señal de disparo insuficiente.<br>
 										- Daño en la compuerta.<br>
-										- Disparo en ángulo de fase inadecuado.
+										- Polarización incorrecta del pulso de disparo.
 									</td>
 								</tr>
 								<tr>
-									<td>⚡ <strong>Conducción inversa</strong></td>
-									<td>El SCR conduce corriente en la dirección opuesta, lo que no debería ocurrir en condiciones
-										normales de operación.</td>
+									<td>⚡ <strong>Conducción incontrolada</strong></td>
+									<td>El TRIAC conduce sin control en ambas direcciones, lo que afecta el correcto funcionamiento del
+										circuito.</td>
 									<td>
-										- Exceso de voltaje inverso.<br>
-										- Fallo en la estructura interna del SCR.<br>
-										- Polarización inversa excesiva.
+										- Exceso de corriente de carga.<br>
+										- Daño interno en la estructura del TRIAC.<br>
+										- Fallo en la compuerta de control.
 									</td>
 								</tr>
 								<tr>
-									<td>🔋 <strong>Bloqueo inapropiado</strong></td>
-									<td>El SCR no bloquea el paso de corriente cuando debería estar en estado de bloqueo.</td>
+									<td>🔋 <strong>Bloqueo fallido</strong></td>
+									<td>El TRIAC no bloquea el paso de corriente cuando debería estar en estado de bloqueo, permitiendo
+										una conducción no deseada.</td>
 									<td>
 										- Sobretensión aplicada.<br>
 										- Fuga de corriente en la compuerta.<br>
-										- Fallo en el material semiconductor.
+										- Daño en el material semiconductor.
 									</td>
 								</tr>
 								<tr>
 									<td>🚫 <strong>Interrupción del circuito</strong></td>
-									<td>El SCR deja de conducir sin haber sido disparado, lo que interrumpe el funcionamiento normal del
-										circuito.</td>
+									<td>El TRIAC deja de conducir sin haber recibido la señal de disparo adecuada, interrumpiendo el
+										funcionamiento normal del circuito.</td>
 									<td>
 										- Falla interna del dispositivo.<br>
 										- Daño en las conexiones o terminales.<br>
@@ -1715,7 +1716,8 @@
 								</tr>
 								<tr>
 									<td>⚙️ <strong>Falla en la conmutación</strong></td>
-									<td>El SCR no conmuta correctamente entre los estados de conducción y bloqueo.</td>
+									<td>El TRIAC no conmuta correctamente entre los estados de conducción y bloqueo en ambas
+										direcciones.</td>
 									<td>
 										- Exceso de corriente de carga.<br>
 										- Frecuencia de conmutación incorrecta.<br>
@@ -1728,66 +1730,9 @@
 					</div>
 				</section>
 
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<div class="r-stack">
-						<div data-id="box1" style="background: cyan; width: 300px; height: 300px;"></div>
-						<div data-id="box2" style="background: magenta; width: 200px; height: 200px;"></div>
-						<div data-id="box3" style="background: yellow; width: 100px; height: 100px;"></div>
-					</div>
-					<h2 style="margin-top: 20px;">Auto-Animate</h2>
-				</section>
 
 				
 
-
-				<section data-auto-animate>
-					<h2 data-id="code-title">Pretty Code</h2>
-					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
-						import React, { useState } from 'react';
-
-						function Example() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    ...
-						  );
-						}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
-				</section>
-
-				<section data-auto-animate>
-					<h2 data-id="code-title">With Animations</h2>
-					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
-						import React, { useState } from 'react';
-
-						function Example() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
-
-						function SecondExample() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
-					</script></code></pre>
-				</section>
 
 				<section>
 					<h5>Tabla de Fallas Comunes de Capacitores</h5>
@@ -1916,12 +1861,7 @@
 					<h2 style="margin-top: 20px;">Auto-Animate</h2>
 				</section>
 
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
+				
 
 				<section data-markdown>
 					<script type="text/template">
@@ -1950,11 +1890,7 @@
 					</script>
 				</section>
 
-				<section>
-					<p>Add the <code>r-fit-text</code> class to auto-size text</p>
-					<h2 class="r-fit-text">FIT TEXT</h2>
-				</section>
-
+				
 				<section>
 					<section id="fragments">
 						<h2>Fragments</h2>
@@ -2185,24 +2121,9 @@ Reveal.on( 'customevent', function() {
 					</p>
 				</section>
 
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://revealjs.com/api/">Extensive JavaScript API</a></li>
-						<li><a href="https://revealjs.com/auto-slide/">Auto-progression</a></li>
-						<li><a href="https://revealjs.com/backgrounds/#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://revealjs.com/keyboard/">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
+				
 
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="https://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
-				</section>
+				
 
 			</div>
 
