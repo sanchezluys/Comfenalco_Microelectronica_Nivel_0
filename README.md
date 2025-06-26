@@ -120,3 +120,5 @@ Este curso no solo te enseña electrónica, **te convierte en un profesional**. 
 **📅 Versión**: v1.0 2024
 
 > *"La microelectrónica no es solo tecnología, es el lenguaje del futuro. ¡Aprende a hablarlo!"*
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sanchezluys/Comfenalco_Microelectronica_Nivel_0)
