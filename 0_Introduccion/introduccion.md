@@ -4,25 +4,25 @@
 
 ---
 
-#### 🎯 Objetivos
-
-<p class="fragment" data-fragment-index="1" style="text-align: left;">
-  1. <strong>🗄️ Bases de datos Relacionales</strong>: Comprender la estructura de datos en tablas relacionadas.
-</p>
-<p class="fragment" data-fragment-index="2" style="text-align: left;">
-  2. <strong>📊 Tablas</strong>: Crear y gestionar tablas de forma eficiente.
-</p>
-<p class="fragment" data-fragment-index="3" style="text-align: left;">
-  3. <strong>🔗 Relaciones entre tablas</strong>: Establecer relaciones mediante claves primarias y foráneas.
-</p>
-<p class="fragment" data-fragment-index="4" style="text-align: left;">
-  4. <strong>🛠️ CRUD</strong>: Realizar operaciones básicas (Crear, Leer, Actualizar, Eliminar) en las tablas.
-</p>
-<p class="fragment" data-fragment-index="5" style="text-align: left;">
-  5. <strong>🔍 Consultas SQL</strong>: Ejecutar consultas para recuperar y manipular datos.
-</p>
-<p class="fragment" data-fragment-index="6" style="text-align: left;">
-  6. <strong>🚀 Publicar en GitHub</strong>: Desarrollar y publicar una base de datos en GitHub.
+#### 🎯 Objetivos  
+  
+<p class="fragment" data-fragment-index="1" style="text-align: left;">  
+  1. <strong>⚛️ Fundamentos Atómicos</strong>: Comprender el modelo atómico y los 14 tipos de energía desde luz hasta radioactividad.  
+</p>  
+<p class="fragment" data-fragment-index="2" style="text-align: left;">  
+  2. <strong>🔧 Ley de Ohm Masterclass</strong>: Dominar las relaciones entre voltaje, corriente y resistencia como un profesional.  
+</p>  
+<p class="fragment" data-fragment-index="3" style="text-align: left;">  
+  3. <strong>🧪 Materiales Semiconductores</strong>: Conocer conductores, semiconductores, superconductores y superaisladores del futuro.  
+</p>  
+<p class="fragment" data-fragment-index="4" style="text-align: left;">  
+  4. <strong>🔬 Componentes Electrónicos</strong>: Dominar resistores, capacitores, inductores y semiconductores desde discretos hasta SMD.  
+</p>  
+<p class="fragment" data-fragment-index="5" style="text-align: left;">  
+  5. <strong>🎯 Diagnóstico ESR Profesional</strong>: Utilizar medidores ESR para diagnóstico avanzado sin desoldadura de componentes.  
+</p>  
+<p class="fragment" data-fragment-index="6" style="text-align: left;">  
+  6. <strong>🛡️ Seguridad y Herramientas</strong>: Aplicar técnicas de protección contra los 6 enemigos de la electrónica y usar instrumentación profesional.  
 </p>
 
 ---
