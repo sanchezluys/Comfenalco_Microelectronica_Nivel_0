@@ -27,9 +27,9 @@
 
 ---
 
-#### ⏳ Meta Final Proyecto en GitHub
+#### ⏳ Objetivo General
 
-<img src="0_Introduccion/git.webp" alt="git"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
+<img src="0_Introduccion/meta.jpg" alt="git"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" class="demo-logo">
 
 ---
 
