@@ -33,31 +33,31 @@
 
 ---
 
-#### 🛠️ Requisitos
-
-<p class="fragment" data-fragment-index="1" style="text-align: left;">
-  1. <strong>💻 Computadora</strong>: Un equipo adecuado para desarrollar y gestionar bases de datos.
-</p>
-<p class="fragment" data-fragment-index="2" style="text-align: left;">
-  2. <strong>🌐 Conexión a Internet</strong>: Esencial para colaborar, acceder a recursos y gestionar proyectos en la nube.
-</p>
-<p class="fragment" data-fragment-index="3" style="text-align: left;">
-  3. <strong>☁️ Servidor con PostgreSQL en la nube</strong>: Un entorno de base de datos accesible y escalable para alojar proyectos.
-</p>
-<p class="fragment" data-fragment-index="4" style="text-align: left;">
-  4. <strong>💻 PgAdmin</strong>: Herramienta para diseñar, modelar y gestionar bases de datos.
-</p>
-<p class="fragment" data-fragment-index="5" style="text-align: left;">
-  5. <strong>🌐 GitHub</strong>: Plataforma para compartir, colaborar y versionar proyectos.
-</p>
-<p class="fragment" data-fragment-index="6" style="text-align: left;">
-  6. <strong>🧑‍🤝‍🧑 Trabajo en equipo</strong>: Colaboración activa con otros desarrolladores para mejorar la eficiencia y calidad del proyecto.
-</p>
-<p class="fragment" data-fragment-index="7" style="text-align: left;">
-  7. <strong>⚙️ Metodologías ágiles</strong>: Uso de enfoques como Scrum o Kanban para gestionar el desarrollo de manera eficiente.
-</p>
-<p class="fragment" data-fragment-index="8" style="text-align: left;">
-  8. <strong>📚 Ganas de aprender</strong>: Actitud proactiva para adquirir nuevos conocimientos y mejorar continuamente.
+#### 🛠️ Requisitos  
+  
+<p class="fragment" data-fragment-index="1" style="text-align: left;">  
+  1. <strong>📱 Smartphone</strong>: Para usar apps especializadas como SMD Decoder, Electrodoc, All DataSheet y Lupa Digital.  
+</p>  
+<p class="fragment" data-fragment-index="2" style="text-align: left;">  
+  2. <strong>🌐 Conexión a Internet</strong>: Esencial para acceder a herramientas de IA generativa y recursos en línea.  
+</p>  
+<p class="fragment" data-fragment-index="3" style="text-align: left;">  
+  3. <strong>🔧 Multímetro</strong>: Instrumento básico para medición de voltaje, corriente y resistencia en componentes.  
+</p>  
+<p class="fragment" data-fragment-index="4" style="text-align: left;">  
+  4. <strong>⚡ Medidor ESR</strong>: Herramienta profesional para diagnóstico avanzado de capacitores, inductores y resistores.  
+</p>  
+<p class="fragment" data-fragment-index="5" style="text-align: left;">  
+  5. <strong>🛡️ Equipo de Protección Personal (EPP)</strong>: Para trabajar de forma segura con componentes electrónicos.  
+</p>  
+<p class="fragment" data-fragment-index="6" style="text-align: left;">  
+  6. <strong>🤖 Acceso a IA Generativa</strong>: ChatGPT, Copilot, Gemini, LuzIA o Claude como asistentes de aprendizaje.  
+</p>  
+<p class="fragment" data-fragment-index="7" style="text-align: left;">  
+  7. <strong>🔬 Kit de Componentes</strong>: Resistores, capacitores, inductores y semiconductores discretos y SMD para práctica.  
+</p>  
+<p class="fragment" data-fragment-index="8" style="text-align: left;">  
+  8. <strong>📚 Ganas de aprender</strong>: Actitud proactiva para dominar desde fundamentos atómicos hasta técnicas ESR profesionales.  
 </p>
 
 ===
