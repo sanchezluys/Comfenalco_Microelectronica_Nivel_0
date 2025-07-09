@@ -1,300 +1,124 @@
-# PostgreSQL-Nivel-0 🐘
-
-Este repositorio contiene un curso educativo completo de PostgreSQL nivel básico, implementado como una plataforma de presentaciones interactivas usando Reveal.js. [1](#3-0) 
-
-## 🎯 Objetivos del Curso
-
-El curso está diseñado para enseñar los fundamentos de PostgreSQL a través de objetivos específicos:
-
-- **🗄️ Bases de datos Relacionales**: Comprender la estructura de datos en tablas relacionadas
-- **📊 Tablas**: Crear y gestionar tablas de forma eficiente  
-- **🔗 Relaciones entre tablas**: Establecer relaciones mediante claves primarias y foráneas
-- **🛠️ CRUD**: Realizar operaciones básicas (Crear, Leer, Actualizar, Eliminar)
-- **🔍 Consultas SQL**: Ejecutar consultas para recuperar y manipular datos
-- **🚀 Publicar en GitHub**: Desarrollar y publicar una base de datos en GitHub
-
-## 📋 Requisitos del Sistema
-
-Para utilizar esta plataforma educativa necesitas:
-
-- **💻 Computadora**: Equipo adecuado para desarrollo y gestión de bases de datos
-- **🌐 Conexión a Internet**: Para colaboración y acceso a recursos en la nube
-- **☁️ Servidor PostgreSQL**: Instancia de PostgreSQL en la nube
-- **💻 pgAdmin**: Herramienta de gestión de bases de datos
-- **🌐 GitHub**: Para versionado y colaboración de proyectos
-- **🧑‍🤝‍🧑 Trabajo en equipo**: Colaboración activa con otros desarrolladores
-- **⚙️ Metodologías ágiles**: Uso de Scrum o Kanban
-
-## 🚀 Instalación y Configuración
-
-### PostgreSQL y pgAdmin
-
-1. **Descargar PostgreSQL**: Obtén la versión más reciente desde el sitio oficial. PostgreSQL es completamente gratuito y de código abierto.
+# 🚀 Comfenalco - Microelectrónica para Técnicos Nivel 0
 
-2. **Instalar pgAdmin**: Descarga desde `https://www.pgadmin.org/download/` y sigue las instrucciones de instalación.
-
-3. **Configurar conexión**:
-   - **Host**: `tu-host.com / IP`
-   - **Puerto**: `5432` (por defecto)
-   - **Usuario**: `tu_usuario`
-   - **Contraseña**: `tu_clave_secreta`
-   - **Base de datos**: `tu_base_de_datos`
-
-## 📚 Estructura del Curso
-
-### Arquitectura del Sistema de Presentación
-
-```mermaid
-graph TB
-    HTML["index.html"] --> RevealJS["Reveal.js 4.6.0"]
-    RevealJS --> Plugins["Sistema de Plugins"]
-    RevealJS --> Content["Carga Dinámica de Contenido"]
-    
-    Plugins --> Chart["RevealChart"]
-    Plugins --> Seminar["RevealSeminar"]
-    Plugins --> QnA["RevealQnA"]
-    Plugins --> Chalkboard["RevealChalkboard"]
-    
-    Content --> Topics["13 Módulos PostgreSQL"]
-    Topics --> Markdown["Archivos .md"]
-    Topics --> Images["Recursos Visuales"]
-```
-
-### Flujo de Aprendizaje PostgreSQL
-
-```mermaid
-flowchart TD
-    A[Inicio del Curso] --> B[0_Introduccion]
-    B --> C[1_La_Tabla]
-    C --> D[3_SQL_Consultas]
-    D --> E[4_Relaciones]
-    E --> F[5_Join]
-    F --> G[6_group_by]
-    G --> H[7_having]
-    H --> I[8_herramientas_avanzadas]
-    
-    C --> J[100_Talleres]
-    I --> K[101_Tablas_Ejercicios]
-```
-
-### Módulos Principales
-
-1. **0_Introduccion** - Conceptos fundamentales de proyectos IT y requisitos
-2. **1_La_Tabla** - Diseño de tablas y tipos de datos [2](#3-1) 
-3. **3_SQL_Consultas** - Consultas SQL y funciones
-4. **4_Relaciones** - Relaciones entre tablas (1:1, 1:M, M:M)
-5. **5_Join** - Operaciones JOIN
-6. **6_group_by** - Agrupación de datos
-7. **7_having** - Filtros avanzados
-8. **8_herramientas_avanzadas** - Vistas, funciones, procedimientos y triggers
-
-### Ejercicios Prácticos
-
-- **100_Talleres** - Configuración de herramientas y talleres prácticos
-- **101_Tablas_Ejercicios** - Ejercicios de creación de tablas para diferentes sectores [3](#3-2) 
-- **400_GITHUB** - Uso de GitHub para proyectos de bases de datos [4](#3-3) 
-- **500_TRELLO** - Gestión de proyectos con Trello
-
-## 🛠️ Características Técnicas
-
-### Plataforma de Presentación
-
-El curso utiliza **Reveal.js** como framework de presentación con características avanzadas: [5](#3-4) 
-
-- **Plugin Anything**: Para contenido interactivo y elementos HTML personalizados
-- **Plugin Seminar**: Para colaboración en tiempo real y sistema de Q&A
-- **Chart.js**: Para visualizaciones de datos
-- **Chalkboard**: Para anotaciones interactivas
-- **Mermaid**: Para diagramas y gráficos [6](#3-5) 
-
-### Convenciones de Código
-
-El curso enseña las mejores prácticas de nomenclatura:
-
-- **snake_case**: Para nombres de columnas (`fecha_nacimiento`)
-- **Descriptivo y conciso**: Nombres claros (`correo_electronico`)
-- **Patrones consistentes**: Prefijos y sufijos estándar (`id_usuario`, `categoria_id`)
-
-## 📊 Conceptos PostgreSQL Cubiertos
-
-### Tipos de Datos PostgreSQL
-
-```mermaid
-graph LR
-    PostgreSQL --> Numericos["Numéricos<br/>INTEGER, NUMERIC, BIGINT"]
-    PostgreSQL --> Texto["Texto<br/>VARCHAR, CHAR, TEXT"]
-    PostgreSQL --> Fecha["Fecha/Hora<br/>DATE, TIMESTAMP"]
-    PostgreSQL --> Especiales["Especiales<br/>JSON, BYTEA"]
-```
-
-#### Tipos de Datos Detallados
-
-- **Numéricos**: `INTEGER`, `NUMERIC(10,2)`, `BIGINT`, `SMALLINT`, `REAL`
-- **Texto**: `VARCHAR(50)`, `CHAR(10)`, `TEXT`, `ENUM`
-- **Fecha/Hora**: `DATE`, `TIMESTAMP`, `TIMESTAMPTZ`, `TIME`
-- **Especiales**: `JSONB`, `BYTEA`, `GEOGRAPHY`, `UUID`, `ARRAY`
-
-### Funciones SQL por Categoría
-
-```mermaid
-graph TD
-    SQL[Consultas SQL] --> Numeric[Numéricas]
-    SQL --> String[Cadenas]
-    SQL --> DateTime[Fecha/Hora]
-    SQL --> Logic[Lógicas]
-    
-    Numeric --> ABS["ABS(), CEIL(), FLOOR()"]
-    String --> CONCAT["CONCAT(), LOWER(), UPPER()"]
-    DateTime --> NOW["NOW(), CURRENT_DATE"]
-    Logic --> CASE["CASE WHEN, COALESCE()"]
-```
-
-El curso cubre diferentes categorías de funciones PostgreSQL: [7](#3-6) 
-
-- **Numéricas**: `ABS()`, `CEIL()`, `FLOOR()`, `ROUND()`
-- **Cadenas**: `CONCAT()`, `LOWER()`, `UPPER()`, `STRING_AGG()`
-- **Fechas**: `NOW()`, `CURRENT_DATE`, `TO_CHAR()`
-- **Lógicas**: `CASE WHEN`, `COALESCE()`, `NULLIF()`
-
-### Arquitectura de Relaciones de Base de Datos
-
-```mermaid
-erDiagram
-    CLIENTES {
-        int id_cliente
-        varchar nombre
-        varchar email
-        varchar telefono
-    }
-    
-    PEDIDOS {
-        int id_pedido
-        int cliente_id
-        date fecha_pedido
-        decimal total
-    }
-    
-    PRODUCTOS {
-        int id_producto
-        varchar nombre
-        decimal precio
-        varchar categoria
-    }
-    
-    CLIENTES ||--o{ PEDIDOS : realiza
-    PEDIDOS ||--o{ PRODUCTOS : contiene
-```
-
-### Configuración del Entorno de Desarrollo
-
-```mermaid
-sequenceDiagram
-    participant U as Usuario
-    participant P as PostgreSQL
-    participant A as pgAdmin
-    participant G as GitHub
-    
-    U->>P: Descargar e Instalar
-    U->>A: Instalar pgAdmin
-    U->>A: Configurar Conexión
-    A->>P: Conectar
-    P-->>A: Conexión Establecida
-    U->>G: Publicar Proyecto
-```
-
-### Distribución del Curso
-
-```mermaid
-pie title Distribución de Módulos
-    "Fundamentos" : 44
-    "Relaciones" : 18
-    "Avanzado" : 13
-    "Talleres" : 15
-    "Ejercicios" : 10
-```
-
-## 🎓 Cómo Usar Este Repositorio
-
-1. **Clonar el repositorio**:
-   ```bash
-   git clone https://github.com/sanchezluys/PostgreSQL-Nivel-0.git
-   ```
-
-2. **Abrir las presentaciones**: Navega a `index.html` en tu navegador web
-
-3. **Seguir el orden de módulos**: Comienza con `0_Introduccion` y progresa secuencialmente
-
-4. **Practicar con ejercicios**: Utiliza los talleres en `100_Talleres` y `101_Tablas_Ejercicios`
-
-5. **Configurar PostgreSQL**: Sigue las instrucciones en el módulo de talleres para configurar tu entorno
-
-### Navegación en las Presentaciones
-
-- **Menú**: Accede al menú lateral para navegar entre módulos
-- **Controles**: Usa las flechas del teclado o los controles en pantalla
-- **Pizarra**: Presiona 'B' para activar la pizarra interactiva
-- **Q&A**: Presiona 'Q' para el sistema de preguntas y respuestas
-
-## 🛠️ Ejercicios Prácticos Incluidos
-
-### Ejercicios Industriales
-
-El repositorio incluye ejercicios específicos para el sector industrial: [3](#3-2) 
-
-- Tabla de Máquinas y Equipos
-- Mantenimiento Preventivo
-- Inventario de Materias Primas
-- Seguridad Industrial
-- Proveedores Industriales
-- Productos Químicos
-- Equipos de Protección Personal (EPP)
-- Proyectos Industriales
-- Herramientas
-- Producción Diaria
-
-### Ejercicios de Zapaterías
-
-También incluye ejercicios específicos para el sector de calzado y zapaterías, cubriendo aspectos como gestión de inventario, producción, proveedores y diseños.
-
-## 🤝 Contribuciones
-
-Este es un proyecto educativo diseñado para aprendizaje colaborativo usando metodologías ágiles y GitHub para versionado.
-
-### Estructura de Contribución
-
-```mermaid
-graph LR
-    Fork[Fork del Repo] --> Clone[Clonar Localmente]
-    Clone --> Branch[Crear Rama]
-    Branch --> Changes[Hacer Cambios]
-    Changes --> Commit[Commit]
-    Commit --> Push[Push a Fork]
-    Push --> PR[Pull Request]
-```
-
-## 📄 Licencia
-
-PostgreSQL es un sistema de gestión de bases de datos completamente gratuito y de código abierto.
-
-## 🔗 Enlaces Útiles
-
-- [PostgreSQL Oficial](https://www.postgresql.org/)
-- [pgAdmin](https://www.pgadmin.org/)
-- [Reveal.js](https://revealjs.com/)
-- [Mermaid Diagrams](https://mermaid.js.org/)
+> **¡Descubre el fascinante mundo de la microelectrónica!** Un viaje épico desde los fundamentos atómicos hasta los componentes más avanzados de la tecnología moderna.
+
+## ⚡ ¿Por qué este curso te cambiará la vida?
+
+Este no es solo otro curso de electrónica. Es tu **puerta de entrada al futuro tecnológico**, donde aprenderás desde la **Ley de Moore** hasta las técnicas más avanzadas de diagnóstico con **medidores ESR**. [2](#2-1) 
+
+## 🎯 Metodología Revolucionaria
+
+**Teoría + Laboratorio = Dominio Total** [3](#2-2) 
+
+- 🧠 **Teoría**: Conceptos fundamentales que cambiarán tu perspectiva
+- 🔬 **Laboratorio**: Prácticas reales con herramientas profesionales
+- 🔧 **Componentes**: Desde discretos hasta SMD de última generación
+
+## 🌟 Arsenal de Herramientas Digitales
+
+### 📱 Apps Revolucionarias para tu Smartphone
+- **SMD Decoder**: Decodifica resistencias, capacitores e inductores al instante [4](#2-3) 
+- **Electrodoc**: Tu calculadora universal de componentes [5](#2-4) 
+- **All DataSheet**: Acceso instantáneo a hojas de fabricante [6](#2-5) 
+- **Lupa Digital**: Convierte tu celular en un microscopio profesional [7](#2-6) 
+
+### 🤖 IA Generativa: Tu Asistente Personal
+Domina las herramientas de inteligencia artificial más poderosas: [8](#2-7) 
+- ChatGPT, Copilot, Gemini, LuzIA, Claude
+
+## 🔬 Fundamentos que Transforman
+
+### ⚛️ Desde el Átomo hasta el Chip
+- **Modelo Atómico**: Comprende la base de todo [9](#2-8) 
+- **14 Tipos de Energía**: Desde luz hasta radioactividad [10](#2-9) 
+- **Ley de Ohm Masterclass**: Domina V, I, R como un profesional [11](#2-10) 
+
+### 🧪 Materiales del Futuro
+Conoce los secretos de: [12](#2-11) 
+- **Conductores**: Oro, Cobre, Aluminio
+- **Semiconductores**: Silicio, Germanio, GaAs
+- **Superconductores**: Carbono, Cadmio, Cromo
+- **Superaisladores**: Tecnología de vanguardia
+
+## 🛠️ Herramientas Profesionales
+
+### 🔧 Arsenal Completo de Instrumentación
+- **Multímetros Inteligentes**: Medición de precisión [13](#2-12) 
+- **Herramientas Especializadas**: Para celulares, potencia, vehículos [14](#2-13) 
+- **Instrumentación Industrial**: Equipos de nivel profesional [15](#2-14) 
+
+## 🎯 **¡EL SECRETO MEJOR GUARDADO: MEDIDORES ESR!**
+
+### 🔥 **ESR: La Técnica que Separa a los Profesionales de los Aficionados**
+
+Los **medidores ESR** son la herramienta más poderosa para diagnóstico avanzado de componentes. [16](#2-15) 
+
+**¿Por qué ESR es REVOLUCIONARIO?**
+- 🎯 **Diagnóstico sin desoldadura**: Mide componentes en circuito
+- ⚡ **Detección instantánea**: Identifica fallas invisibles al multímetro
+- 🔬 **Precisión extrema**: Capacitores, inductores, resistores
+- 💡 **Ahorro de tiempo**: Diagnósticos en segundos, no horas
+
+**Aplicaciones ESR en el curso:**
+- Medición de **capacitores** sin riesgo eléctrico [17](#2-16) 
+- Análisis de **inductores** con precisión profesional [18](#2-17) 
+- Verificación de **resistores** sin interferencias [19](#2-18) 
+- Diagnóstico de **diodos** y semiconductores [20](#2-19) 
+
+## 🧩 Componentes: De Básico a Experto
+
+### 🔴 **RESISTORES**: Maestría Completa
+- Discretos, SMD, Potencia, Industriales, Arrays [21](#2-20) 
+- **Carta de Fallas Profesional**: 7 tipos de fallas y sus causas [22](#2-21) 
+
+### 🟢 **CAPACITORES**: Tecnología Avanzada
+- Cerámicos, Tantalio, SMD, Aceite y Papel [23](#2-22) 
+- **Diagnóstico Experto**: 7 fallas críticas identificadas [24](#2-23) 
+
+### 🟡 **INDUCTORES**: Magnetismo Dominado
+- Toroidales, SMD, Discretos - 8 tipos diferentes [25](#2-24) 
+- **Medición Profesional**: 4 técnicas avanzadas [18](#2-17) 
+
+### 🔵 **SEMICONDUCTORES**: El Futuro en tus Manos
+- **Diodos**: LEDs, Potencia, SMD, Equivalencias [26](#2-25) 
+- **SCRs**: Control de potencia profesional [27](#2-26) 
+- **TRIACs**: Conmutación AC avanzada [28](#2-27) 
+
+## ⚠️ Seguridad Profesional
+
+### 🛡️ Protección Total
+Domina los **6 enemigos** de la electrónica: [29](#2-28) 
+- ⚡ **Estática**: Técnicas de descarga segura
+- 🌡️ **Temperatura**: Control térmico profesional
+- 💧 **Humedad**: Prevención de corrosión
+- 🌪️ **Polvo**: Mantenimiento preventivo
+- 📳 **Vibraciones**: Estabilidad mecánica
+- 🦺 **EPP**: Equipos de protección personal
+
+## 📚 Manuales Profesionales
+
+Aprende a interpretar los **5 tipos** de documentación técnica: [30](#2-29) 
+- 📖 Manual de Usuario
+- ⚙️ Manual de Operación  
+- 🛡️ Manual de Garantía
+- 🔧 Manual de Servicio (L0, L1, Esquemáticos)
+
+## 🚀 ¿Listo para la Transformación?
+
+Este curso no solo te enseña electrónica, **te convierte en un profesional**. Con herramientas de IA, medidores ESR, y conocimiento desde el nivel atómico hasta sistemas complejos.
+
+### 💻 Cómo Empezar
+1. Abre `index.html` en tu navegador
+2. Sumérgete en la experiencia interactiva
+3. Practica con herramientas reales
+4. Domina el diagnóstico ESR
 
 ---
 
-**Autor**: Luis Sánchez  
-**Repositorio**: [PostgreSQL-Nivel-0](https://github.com/sanchezluys/PostgreSQL-Nivel-0)  
-**Versión**: 1.0  
-**Última actualización**: 2025
+**🎓 Instructor**: Luis Sanchez ([@sanchezluys](https://www.linkedin.com/in/sanchezluys/))  
+**🛠️ Tecnología**: reveal.js - Presentaciones interactivas de nivel profesional  
+**📅 Versión**: v1.0 2024
 
-## 📞 Contacto
+> *"La microelectrónica no es solo tecnología, es el lenguaje del futuro. ¡Aprende a hablarlo!"*
 
-Para preguntas, sugerencias o contribuciones, puedes:
-- Abrir un issue en GitHub
-- Crear un pull request
-- Contactar al autor a través de GitHub
-
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sanchezluys/PostgreSQL-Nivel-0)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sanchezluys/Comfenalco_Microelectronica_Nivel_0)
