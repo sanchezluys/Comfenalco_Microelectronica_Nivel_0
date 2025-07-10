@@ -29,16 +29,16 @@
 #### 🔧 Manual de Servicio  
 
 <p class="fragment" data-fragment-index="4" style="text-align: left;">
-    1. <div style="display: flex; justify-content: space-between; align-items: center; margin: 1rem 0;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin: 1rem 0;">
         <ol style="flex: 1; margin-left: 1rem;">
             <li>Esquemáticos</li>
             <li>Servicio L0</li>
             <li>Servicio L1</li>
             <li>Diseño</li>
         </ol>
-        <img src="img/manual_servicio.JPG" alt="Manual de Servicio" style="height: 200px; background: transparent;" class="demo-logo">
+        ![Manual de Servicio](img/manual_servicio.JPG)
     </div>
-    2. <strong>🔧 Manual de Servicio</strong>: Documentación técnica del fabricante con esquemáticos, niveles de servicio L0/L1 y diseño.
+    <strong>🔧 Manual de Servicio</strong>: Documentación técnica del fabricante con esquemáticos, niveles de servicio L0/L1 y diseño.
 </p>
 
 ===
