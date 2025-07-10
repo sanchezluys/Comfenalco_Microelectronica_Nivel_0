@@ -47,7 +47,7 @@
 
 El medidor ESR es una herramienta fundamental para el diagnóstico profesional de componentes electrónicos.  
 
-![Medidor ESR 1](img/esr_1.png)  
+<img src="img/esr_1.png" alt="Medidor ESR 1" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
 
 ---
 
