@@ -40,3 +40,35 @@
         <img src="img/manual_servicio.JPG" alt="Manual de Servicio" style="height: 200px; background: transparent;" class="demo-logo">    
     </div>
 </p>
+
+===
+
+#### Medidor ESR - Introducción  
+
+El medidor ESR es una herramienta fundamental para el diagnóstico profesional de componentes electrónicos.  
+
+![Medidor ESR 1](img/esr_1.png)  
+
+---
+
+#### Medidor ESR - Funcionamiento  
+
+Permite medir la resistencia serie equivalente sin desoldadura, identificando fallas invisibles al multímetro convencional.  
+
+![Medidor ESR 2](img/esr_2.png)  
+
+---
+
+#### Medidor ESR - Aplicaciones  
+
+Ideal para diagnóstico de capacitores, inductores y resistores con precisión extrema en segundos.  
+  
+![Medidor ESR 3](img/esr_3.png)  
+
+---
+
+#### Medidor ESR - Ventajas Profesionales  
+
+Ahorro de tiempo significativo y diagnósticos instantáneos que separan a los profesionales de los aficionados.  
+
+![Medidor ESR 4](img/esr_4.png)
