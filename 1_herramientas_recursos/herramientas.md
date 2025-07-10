@@ -28,6 +28,7 @@
 
 #### 🔧 Manual de Servicio  
 
+![Manual de Servicio](img/manual_servicio.JPG)
 <p class="fragment" data-fragment-index="4" style="text-align: left;">
     <div style="display: flex; justify-content: space-between; align-items: center; margin: 1rem 0;">
         <ol style="flex: 1; margin-left: 1rem;">
@@ -36,7 +37,6 @@
             <li>Servicio L1</li>
             <li>Diseño</li>
         </ol>
-        ![Manual de Servicio](img/manual_servicio.JPG)
     </div>
     <strong>🔧 Manual de Servicio</strong>: Documentación técnica del fabricante con esquemáticos, niveles de servicio L0/L1 y diseño.
 </p>
