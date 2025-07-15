@@ -125,3 +125,18 @@ Ahorro de tiempo significativo y diagnósticos instantáneos que separan a los p
 
 <p>EPP - Seguridad</p>
 <img src="img/epp.jpg" alt="EPP" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+
+===
+
+<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+    <h2>Resistencia - Corriente - Voltaje</h2>
+    <p>Componentes Básicos Resistor-Capacitor-Inductor</p>
+    <div class="r-hstack justify-center">
+        <div data-id="box1"
+                        style="background: #999; width: 100px; height: 100px; margin: 10px; border-radius: 5px;">R</div>
+                    <div data-id="box2"
+                        style="background: #999; width: 100px; height: 100px; margin: 10px; border-radius: 5px;">L</div>
+                    <div data-id="box3"
+                        style="background: #999; width: 100px; height: 100px; margin: 10px; border-radius: 5px;">C</div>
+    </div>
+</section>
