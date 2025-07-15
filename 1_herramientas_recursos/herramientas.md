@@ -50,6 +50,38 @@ Documentación técnica del fabricante con esquemáticos, niveles de servicio L0
 
 ===
 
+#### Multímetro - Introducción  
+
+El multímetro es una herramienta esencial para medir voltaje, corriente y resistencia en circuitos electrónicos.  
+
+![Multímetro Introducción](img/multimetros/mul_1.webp)  
+
+---
+
+#### Multímetro - Funcionamiento  
+
+Permite realizar mediciones precisas y rápidas, facilitando el diagnóstico de problemas eléctricos y electrónicos.  
+
+![Multímetro Funcionamiento](img/multimetros/mul_2.jpg)  
+
+---
+
+#### Multímetro - Aplicaciones  
+
+Ideal para verificar conexiones, identificar fallas y medir parámetros eléctricos en diversos dispositivos.  
+
+![Multímetro Aplicaciones](img/multimetros/mul_3.jpg)  
+
+---
+
+#### Multímetro - Ventajas Profesionales  
+
+Versatilidad y precisión que lo convierten en una herramienta indispensable para técnicos y profesionales.  
+
+![Multímetro Ventajas](img/multimetros/mul_4.webp)
+
+---
+
 #### Medidor ESR - Introducción  
 
 El medidor ESR es una herramienta fundamental para el diagnóstico profesional de componentes electrónicos.  
@@ -125,18 +157,3 @@ Ahorro de tiempo significativo y diagnósticos instantáneos que separan a los p
 
 <p>EPP - Seguridad</p>
 <img src="img/epp.jpg" alt="EPP" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
-
-===
-
-<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-    <h2>Resistencia - Corriente - Voltaje</h2>
-    <p>Componentes Básicos Resistor-Capacitor-Inductor</p>
-    <div class="r-hstack justify-center">
-        <div data-id="box1"
-                        style="background: #999; width: 100px; height: 100px; margin: 10px; border-radius: 5px;">R</div>
-                    <div data-id="box2"
-                        style="background: #999; width: 100px; height: 100px; margin: 10px; border-radius: 5px;">L</div>
-                    <div data-id="box3"
-                        style="background: #999; width: 100px; height: 100px; margin: 10px; border-radius: 5px;">C</div>
-    </div>
-</section>
