@@ -79,3 +79,49 @@ Ideal para diagnóstico de capacitores, inductores y resistores con precisión e
 Ahorro de tiempo significativo y diagnósticos instantáneos que separan a los profesionales de los aficionados.  
 
 ![Medidor ESR 4](img/esr_4.png)
+
+===
+
+### Cuidados en la Electrónica 🌟
+
+---
+
+#### Estática ⚡
+
+<p>Electrones acumulados - Efecto punta</p>
+<img src="img/estatica.JPG" alt="Estática" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+
+---
+
+#### Temperatura 🔥
+
+<p>Altas temperaturas - Calor - Recalentamiento</p>
+<img src="img/temperatura.jpg" alt="Temperatura" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+
+---
+
+#### Humedad 💧
+
+<p>Corrosión - Capacitancias - Cortos eléctricos</p>
+<img src="img/corrosion_2.jpeg" alt="Humedad" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+
+---
+
+#### Polvo 🌫️
+
+<p>Estática - Adiabático - Más calor</p>
+<img src="img/polvo.jpg" alt="Polvo" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+
+---
+
+#### Vibración mecánica 🎵
+
+<p>Movimiento - Oscilaciones - Frecuencia</p>
+<img src="img/vibraciones.png" alt="Vibraciones" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+
+---
+
+#### Equipos de protección 🛡️
+
+<p>EPP - Seguridad</p>
+<img src="img/epp.jpg" alt="EPP" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
