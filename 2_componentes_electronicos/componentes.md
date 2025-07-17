@@ -70,3 +70,36 @@
 ![Capacitores SMD Tantalio](img/capacitores/capacitores_tantalio.png)
 
 ---
+
+#### Ecuación de los capacitores
+
+![Capacitores SMD Tantalio](img/capacitores/c_ecuaciones.png)
+
+Tomado de KhanAcademyEspañol
+
+===
+
+#### Midiendo Capacitancia
+
+<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+    <!-- Imagen a la izquierda -->
+    <div style="flex: 0 0 60%; text-align: center;">
+        ![Midiendo Capacitancia](img/capacitores/medir_capacitor.png)
+    </div>
+
+    <!-- Listado a la derecha con texto más pequeño y mejor ajuste -->
+    <div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
+        <ol>
+            <li>Con ohmios - se carga y descarga</li>
+            <li>Con capacímetro</li>
+            <li>Con medidor ESR</li>
+        </ol>
+        <hr>
+        <ul>
+            <li>⚠️ Siempre se debe descargar primero</li>
+            <li>⚠️ Riesgo Eléctrico</li>
+        </ul>
+    </div>
+</div>
+
+---
