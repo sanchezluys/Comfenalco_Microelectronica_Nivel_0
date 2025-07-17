@@ -31,7 +31,7 @@
 
 #### Capacitores por material de construcción
 
-![capacitores por material](iimg/capacitores/capacitores_por_material.jpg)
+![capacitores por material](img/capacitores/capacitores_por_material.jpg)
 
 ---
 
