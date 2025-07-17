@@ -87,27 +87,16 @@ Tomado de KhanAcademyEspañol
 
 #### Opciones
 
-<section>
-    <div style="display: flex; align-items: flex-start; justify-content: space-between;">
-        <!-- Imagen a la izquierda -->
-        <div style="flex: 0 0 60%; text-align: center;">
-            <img src="img/capacitores/medir_capacitor.png" alt="Midiendo Capacitancia" style="max-height: 400px;">
-        </div>
 
-        <!-- Listado a la derecha -->
-        <div style="flex: 1; font-size: 0.8em; padding-left: 10px;">
-            <ol>
-                <li>Con ohmios - se carga y descarga</li>
-                <li>Con capacímetro</li>
-                <li>Con medidor ESR</li>
-            </ol>
-            <hr>
-            <ul>
-                <li>⚠️ Siempre se debe descargar primero</li>
-                <li>⚠️ Riesgo Eléctrico</li>
-            </ul>
-        </div>
-    </div>
-</section>
+<ol>
+    <li>Con ohmios - se carga y descarga</li>
+    <li>Con capacímetro</li>
+    <li>Con medidor ESR</li>
+</ol>
+<hr>
+<ul>
+    <li>⚠️ Siempre se debe descargar primero</li>
+    <li>⚠️ Riesgo Eléctrico</li>
+</ul>
 
 ---
