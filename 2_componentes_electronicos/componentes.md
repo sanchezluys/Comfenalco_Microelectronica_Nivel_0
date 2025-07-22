@@ -205,91 +205,90 @@ Tomado de KhanAcademyEspañol
 
 ####  El Inductor - Bobina - Solenoide - Coil
 
-<img src="img/inductores/inductor.jpg" alt="Inductor" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/inductor.jpg" alt="Inductor" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Bobinas discretas
 
-<img src="img/inductores/l_1.jpg" alt="tipos"	style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_1.jpg" alt="tipos"	style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Bobinas discretas 2
 
-<img src="img/inductores/l_dis_2.webp" alt="l discretas" style="height: 500px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_dis_2.webp" alt="l discretas" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Tipo de Bobinas
 
-<img src="img/inductores/l_2.jpg" alt="tipos boninas" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_2.jpg" alt="tipos boninas" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Modelos
 
-<img src="img/inductores/l_3.webp" alt="modelos variados" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_3.webp" alt="modelos variados" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Toroidales
 
-<img src="img/inductores/l_toroide.png" alt="toroidal" style="height: 500px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_toroide.png" alt="toroidal" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Tipo SMD 1
 
-<img src="img/inductores/l_smd_1.jpg" alt="bobinas smd" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_smd_1.jpg" alt="bobinas smd" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Tipo SMD 2
 
-<img src="img/inductores/l_smd_2.webp" alt="bobinas smd2" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_smd_2.webp" alt="bobinas smd2" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Tipo SMD 3
 
-<img src="img/inductores/l_smd_3.jpg" alt="bobinas smd3" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_smd_3.jpg" alt="bobinas smd3" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Tipo SMD 4
 
-<img src="img/inductores/l_smd_4.webp" alt="bobinas smd4" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_smd_4.webp" alt="bobinas smd4" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Tipo SMD 5
 
-<img src="img/inductores/l_smd_5.webp" alt="bobinas smd5" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+<img src="img/inductores/l_smd_5.webp" alt="bobinas smd5" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### Tipo SMD 6
-<img src="img/inductores/l_smd_6.jpg" alt="bobinas smd6" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; " >
+<img src="img/inductores/l_smd_6.jpg" alt="bobinas smd6" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" >
 
 ---
 
 #### Tipo SMD 7
-<img src="img/inductores/l_smd_7.jpg" alt="bobinas smd7"
-    style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" >
+
+<img src="img/inductores/l_smd_7.jpg" alt="bobinas smd7" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" >
 
 ---
 
 #### Tipo SMD 8
-<img src="img/inductores/l_smd_8.webp" alt="bobinas smd8" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" >
-    <br>
-    
-    
+
+<img src="img/inductores/l_smd_8.webp" alt="bobinas smd8" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" >
+
 ---
 
-<img src="img/inductores/l_ecuaciones.png" alt="ecuaciones del inductor"
-    style="height: 550px; width: 90%; margin: 0 auto 4rem auto; background: transparent;"
-     />
+#### Ecuaciones del Inductor
+
+<img src="img/inductores/l_ecuaciones.png" alt="ecuaciones del inductor" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"/>
 <p style="flex: 1; font-size: 0.5em; overflow-y: auto; padding-left: 5px; color: white">Tomado de KhanAcademyEspañol</p>
 
 ---
@@ -319,7 +318,7 @@ Tomado de KhanAcademyEspañol
 
 #### Carta de Fallas del Inductor
 
-<div style="flex: 1; font-size: 0.5em; max-height: 800px; max-width: 100%;  overflow-y: auto; padding-left: 10px;">
+<div style="flex: 1; font-size: 0.5em; max-height: 900px; max-width: 100%;  overflow-y: auto; padding-left: 10px;">
 <table>
     <thead>
     <tr>
