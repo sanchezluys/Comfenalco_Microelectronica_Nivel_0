@@ -102,7 +102,7 @@ Tomado de KhanAcademyEspañol
 
 ### 📝 Carta de Fallas del Capacitor
 
-<div style="flex: 1; font-size: 0.5em; max-height: 500px; max-width: 100%;  overflow-y: auto; padding-left: 10px;">
+<div style="flex: 1; font-size: 0.6em; max-height: 600px; max-width: 100%;  overflow-y: auto; padding-left: 10px;">
     <table>
         <thead>
             <tr>
@@ -205,18 +205,17 @@ Tomado de KhanAcademyEspañol
 
 ####  El inductor
 
-                <section>
-                <section>
-                    <h4>El Inductor - Bobina - Solenoide - Coil</h4>
-                    <img src="img/inductores/inductor.jpg" alt="Inductor"
-                        style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+<section>
+    <h4>El Inductor - Bobina - Solenoide - Coil</h4>
+    <img src="img/inductores/inductor.jpg" alt="Inductor" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+    <br>
+    <a href="#/42/13" class="navigate-down">
+       <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="150" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+    </a>
+</section>
 
-                    <br>
-                    <a href="#/42/13" class="navigate-down">
-                        <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="150"
-                            data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
-                    </a>
-                </section>
+---
+
 
                 <section>
                     <h4>Bobinas discretas</h4>
