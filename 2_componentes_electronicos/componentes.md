@@ -22,55 +22,55 @@
 
 #### 🧱 Capacitores Discretos
 
-![Capacitores discretos](img/capacitores/capacitores_discretos.jpg)
+<img src="img/capacitores/capacitores_discretos.jpg" alt="Capacitores discretos" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### 🏗️ Capacitores por Material de Construcción
 
-![capacitores por material](img/capacitores/capacitores_por_material.jpg)
+<img src="img/capacitores/capacitores_por_material.jpg" alt="capacitores por material" style="max-height: 800px; width: auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### 🌀 Capacitores Tipos
 
-![Capacitores tipos](img/capacitores/capacitores_tipos_1.jpg)
+<img src="img/capacitores/capacitores_tipos_1.jpg" alt="Capacitores tipos" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### 🛢️ Capacitores SMD Aceite y Papel
 
-![Capacitores SMD Aceite y Papel](img/capacitores/capacitores_smd_1.png)
+<img src="img/capacitores/capacitores_smd_1.png" alt="Capacitores SMD Aceite y Papel" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### 🏺 Capacitores SMD Cerámicos
 
-![Capacitores SMD Cerámicos](img/capacitores/capacitores_smd_ceramicos.jpg)
+<img src="img/capacitores/capacitores_smd_ceramicos.jpg" alt="Capacitores SMD Cerámicos" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### 📏 Capacitor C: 18uF 6.3V 0805
 
-![Capacitor C: 18uF 6.3V 0805](img/capacitores/CERAMIC-CAPACITOR.jpg)
+<img src="img/capacitores/CERAMIC-CAPACITOR.jpg" alt="Capacitor C: 18uF 6.3V 0805" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### 📐 Capacitores Medidas
 
-![Capacitores Medidas](img/capacitores/capacitor_medidas.png)
+<img src="img/capacitores/capacitor_medidas.png" alt="Capacitores Medidas" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### 🧪 Capacitores SMD Tantalio
 
-![Capacitores SMD Tantalio](img/capacitores/capacitores_tantalio.png)
+<img src="img/capacitores/capacitores_tantalio.png" alt="Capacitores SMD Tantalio" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### 📊 Ecuación de los Capacitores
 
-![Capacitores SMD Tantalio](img/capacitores/c_ecuaciones.png)
+<img src="img/capacitores/c_ecuaciones.png" alt="Capacitores SMD Tantalio" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 Tomado de KhanAcademyEspañol
 
@@ -78,7 +78,7 @@ Tomado de KhanAcademyEspañol
 
 #### 🛠️ Midiendo Capacitancia
 
-![Midiendo Capacitancia](img/capacitores/medir_capacitor.png)
+<img src="img/capacitores/medir_capacitor.png" alt="Midiendo Capacitancia" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
