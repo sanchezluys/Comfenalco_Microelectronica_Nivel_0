@@ -203,10 +203,10 @@ Tomado de KhanAcademyEspañol
 
 ===
 
-####  El inductor
+####  El Inductor - Bobina - Solenoide - Coil
 
 <section>
-    <h4>El Inductor - Bobina - Solenoide - Coil</h4>
+
     <img src="img/inductores/inductor.jpg" alt="Inductor" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
     <br>
     <a href="#/42/13" class="navigate-down">
@@ -217,11 +217,11 @@ Tomado de KhanAcademyEspañol
 ---
 
 
-                <section>
-                    <h4>Bobinas discretas</h4>
-                    <img src="img/inductores/l_1.jpg" alt="tipos"
-                        style="height: 500px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
-                </section>
+<section>
+    <h4>Bobinas discretas</h4>
+    <img src="img/inductores/l_1.jpg" alt="tipos"
+        style="height: 500px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+</section>
 
                 <section>
                     <h4>Bobinas discretas 2</h4>
