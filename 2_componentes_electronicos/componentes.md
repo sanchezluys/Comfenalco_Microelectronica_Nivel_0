@@ -1,4 +1,4 @@
-### ⚙️ Componentes electrónicos
+### ⚙️ Componentes Electrónicos
 
 ![Componentes](img/componentes/com_1.png)
 
@@ -26,13 +26,13 @@
 
 ---
 
-#### 🏗️ Capacitores por material de construcción
+#### 🏗️ Capacitores por Material de Construcción
 
 ![capacitores por material](img/capacitores/capacitores_por_material.jpg)
 
 ---
 
-#### 🌀 Capacitores tipos
+#### 🌀 Capacitores Tipos
 
 ![Capacitores tipos](img/capacitores/capacitores_tipos_1.jpg)
 
@@ -68,7 +68,7 @@
 
 ---
 
-#### 📊 Ecuación de los capacitores
+#### 📊 Ecuación de los Capacitores
 
 ![Capacitores SMD Tantalio](img/capacitores/c_ecuaciones.png)
 
@@ -206,13 +206,13 @@ Tomado de KhanAcademyEspañol
 
 ---
 
-#### 🌀 Bobinas discretas
+#### 🌀 Bobinas Discretas
 
 <img src="img/inductores/l_1.jpg" alt="tipos"	style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
-#### 🌀 Bobinas discretas 2
+#### 🌀 Bobinas Discretas 2
 
 <img src="img/inductores/l_dis_2.webp" alt="l discretas" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
