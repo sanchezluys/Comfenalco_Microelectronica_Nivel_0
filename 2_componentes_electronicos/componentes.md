@@ -750,3 +750,382 @@ Tomado de KhanAcademyEspañol
         </tbody>
     </table>
 </div>
+
+===
+
+### El SCR - Diodo Controlado
+
+<img src="img/scr/scr_1.png" alt="diodo scr" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### SCR discretos
+
+<img src="img/scr/scr_2.webp" alt="scr discretos" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" >
+
+---
+
+#### SCR discretos 2
+
+<img src="img/scr/scr_3.jpg" alt="scr discretos" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### SCR de Potencia
+
+<img src="img/scr/scr_4.jpg" alt="scr de potencia" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### SCR SMD de Potencia
+
+<img src="img/scr/1280_M5oXtQ62UpN55xmp.jpg" alt="scr smd de potencia" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### SCRs SMD
+
+<img src="img/scr/scr_5.jpg" alt="scr 5" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Circuito Básico con SCR
+
+<img src="img/scr/circuito-basico-tiristor.jpg" alt="circuito basico" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Control de Fase con Tiristor
+
+<img src="img/scr/control-fase-con-tiristor.png" alt="circuito basico ac" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Midiendo SCRs
+
+<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+    <div style="flex: 0 0 75%; text-align: center;">
+        <img src="img/scr/scr_test_1.png" alt="paso 1 test scr" style="max-height: 700px; width: auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+    </div>
+    <div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
+        <ol>
+            <li>Con Multímetro en escala de ohmios</li>
+            <li>Con Multímetro en escala Diodo </li>
+            <li>Con medidor ESR</li>
+            <li>http://www.soloelectronica.net/thyristor_and_triac_tester.html</li>
+        </ol>
+        <hr>
+        <il>1. Verificar que el anodo y catodo del diodo no esten en corto. Deben dar `0L` en ambos
+            sentidos</il>
+    </div>
+</div>
+
+---
+
+#### Polarización Inversa
+
+<img src="img/scr/scr_test_2.png" alt="scr test 2" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### Polarización Directa - Ver Voltaje de polarización
+
+<img src="img/scr/scr_test_3.png" alt="scr test 3" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### SCR Activación
+
+<img src="img/scr/scr_test_4.png" alt="scr test 3" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### SCRs Queda Enganchado
+
+<img src="img/scr/scr_test_5.png" alt="scr test 4" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---            
+
+#### Carta de Fallas del SCR
+
+<div style="flex: 1; font-size: 0.5em; max-height: 800px; max-width: 100%; overflow-y: auto; padding-left: 10px;">
+    <table>
+        <thead>
+            <tr>
+                <th>⚠️ Falla</th>
+                <th>📝 Descripción</th>
+                <th>🔍 Posibles Causas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>🔥 <strong>Cortocircuito</strong></td>
+                <td>El SCR permite el paso de corriente continuamente sin poder apagarlo, resultando en
+                    una
+                    conducción permanente.</td>
+                <td>
+                    - Exceso de corriente en el ánodo.<br>
+                    - Fallo en la compuerta de disparo.<br>
+                    - Sobrecalentamiento del dispositivo.
+                </td>
+            </tr>
+            <tr>
+                <td>💨 <strong>Sobrecalentamiento</strong></td>
+                <td>El SCR se calienta excesivamente debido a una disipación inadecuada o a la
+                    conducción continua.
+                </td>
+                <td>
+                    - Exceso de corriente aplicada.<br>
+                    - Ventilación insuficiente.<br>
+                    - Radiadores defectuosos o mal dimensionados.
+                </td>
+            </tr>
+            <tr>
+                <td>💥 <strong>Falla de disparo</strong></td>
+                <td>El SCR no puede activarse correctamente cuando se aplica el pulso de disparo en la
+                    compuerta.
+                </td>
+                <td>
+                    - Señal de disparo insuficiente.<br>
+                    - Daño en la compuerta.<br>
+                    - Disparo en ángulo de fase inadecuado.
+                </td>
+            </tr>
+            <tr>
+                <td>⚡ <strong>Conducción inversa</strong></td>
+                <td>El SCR conduce corriente en la dirección opuesta, lo que no debería ocurrir en
+                    condiciones
+                    normales de operación.</td>
+                <td>
+                    - Exceso de voltaje inverso.<br>
+                    - Fallo en la estructura interna del SCR.<br>
+                    - Polarización inversa excesiva.
+                </td>
+            </tr>
+            <tr>
+                <td>🔋 <strong>Bloqueo inapropiado</strong></td>
+                <td>El SCR no bloquea el paso de corriente cuando debería estar en estado de bloqueo.
+                </td>
+                <td>
+                    - Sobretensión aplicada.<br>
+                    - Fuga de corriente en la compuerta.<br>
+                    - Fallo en el material semiconductor.
+                </td>
+            </tr>
+            <tr>
+                <td>🚫 <strong>Interrupción del circuito</strong></td>
+                <td>El SCR deja de conducir sin haber sido disparado, lo que interrumpe el
+                    funcionamiento normal del
+                    circuito.</td>
+                <td>
+                    - Falla interna del dispositivo.<br>
+                    - Daño en las conexiones o terminales.<br>
+                    - Variación brusca de la carga.
+                </td>
+            </tr>
+            <tr>
+                <td>⚙️ <strong>Falla en la conmutación</strong></td>
+                <td>El SCR no conmuta correctamente entre los estados de conducción y bloqueo.</td>
+                <td>
+                    - Exceso de corriente de carga.<br>
+                    - Frecuencia de conmutación incorrecta.<br>
+                    - Disparo ineficaz de la compuerta.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+---          
+
+#### El TRIAC
+
+<img src="img/triac/triac_1.png" alt="triac 1" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### TRIACs discretos
+
+<img src="img/triac/triac_2.jpg" alt="triacs discretos" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 30px;">
+
+---
+
+#### TRIACs discretos 2
+
+<img src="img/triac/triac_3.webp" alt="triacs discretos 2" style="height: 600px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 30px;"
+    >
+
+---
+
+#### TRIACs de Potencia
+
+<img src="img/triac/triac_4.jpg" alt="triac de potencia" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### TRIAC SMD de Potencia
+
+<img src="img/triac/triac_5.avif" alt="triac smd de potencia" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 30px;"
+    >
+
+---
+
+#### TRIAC SMD
+
+<img src="img/triac/triac_6.webp" alt="triac 5" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### CIRCUITO BASICO - TRIAC
+
+<img src="img/triac/triac_7.png" alt="circuito basico triac" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### CIRCUITO BASICO 2- TRIAC
+
+<img src="img/triac/triac_8.png" alt="circuito basico ac" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Midiendo TRIACs
+
+<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+    <div style="flex: 0 0 75%; text-align: center;">
+        <img src="img/triac/triac_test_1.png" alt="paso 1 test triac" style="max-height: 700px; width: auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+    </div>
+    <!-- autor: https://www.youtube.com/watch?v=SGLd3VeY2zI -->
+    <div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
+        <ol>
+            <li>Con Multímetro en escala de ohmios</li>
+            <li>Con Multímetro en escala Diodo </li>
+            <li>Con medidor ESR</li>
+        </ol>
+        <hr>
+        <il>1. Verificar que el MT1 y MT2 no esten en corto. Deben dar `0L` en ambos sentidos
+        </il>
+    </div>
+</div>
+
+---
+
+#### Polarización Inversa
+
+<img src="img/triac/triac_test_2.png" alt="triac test 2" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### Activación de compuerta G
+
+<img src="img/triac/triac_test_3.png" alt="triac test 3" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### Activación de compuerta G - Ver Voltaje de polarización
+
+<img src="img/triac/triac_test_4.png" alt="triac test 4" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
+    >
+
+---
+
+#### Carta de Fallas del TRIAC
+
+<div style="flex: 1; font-size: 0.5em; max-height: 800px; max-width: 100%; overflow-y: auto; padding-left: 10px;">
+    <table>
+        <thead>
+            <tr>
+                <th>⚠️ Falla</th>
+                <th>📝 Descripción</th>
+                <th>🔍 Posibles Causas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>🔥 <strong>Cortocircuito</strong></td>
+                <td>El TRIAC permite el paso de corriente en ambas direcciones sin control, resultando
+                    en una
+                    conducción permanente.</td>
+                <td>
+                    - Exceso de corriente en los terminales principales.<br>
+                    - Fallo en la compuerta de disparo.<br>
+                    - Sobrecalentamiento del dispositivo.
+                </td>
+            </tr>
+            <tr>
+                <td>💨 <strong>Sobrecalentamiento</strong></td>
+                <td>El TRIAC se calienta excesivamente debido a una disipación inadecuada o a la
+                    conducción continua
+                    en ambas direcciones.</td>
+                <td>
+                    - Exceso de corriente aplicada.<br>
+                    - Ventilación insuficiente.<br>
+                    - Radiadores defectuosos o mal dimensionados.
+                </td>
+            </tr>
+            <tr>
+                <td>💥 <strong>Falla de disparo</strong></td>
+                <td>El TRIAC no responde correctamente cuando se aplica el pulso de disparo en la
+                    compuerta.</td>
+                <td>
+                    - Señal de disparo insuficiente.<br>
+                    - Daño en la compuerta.<br>
+                    - Polarización incorrecta del pulso de disparo.
+                </td>
+            </tr>
+            <tr>
+                <td>⚡ <strong>Conducción incontrolada</strong></td>
+                <td>El TRIAC conduce sin control en ambas direcciones, lo que afecta el correcto
+                    funcionamiento del
+                    circuito.</td>
+                <td>
+                    - Exceso de corriente de carga.<br>
+                    - Daño interno en la estructura del TRIAC.<br>
+                    - Fallo en la compuerta de control.
+                </td>
+            </tr>
+            <tr>
+                <td>🔋 <strong>Bloqueo fallido</strong></td>
+                <td>El TRIAC no bloquea el paso de corriente cuando debería estar en estado de bloqueo,
+                    permitiendo
+                    una conducción no deseada.</td>
+                <td>
+                    - Sobretensión aplicada.<br>
+                    - Fuga de corriente en la compuerta.<br>
+                    - Daño en el material semiconductor.
+                </td>
+            </tr>
+            <tr>
+                <td>🚫 <strong>Interrupción del circuito</strong></td>
+                <td>El TRIAC deja de conducir sin haber recibido la señal de disparo adecuada,
+                    interrumpiendo el
+                    funcionamiento normal del circuito.</td>
+                <td>
+                    - Falla interna del dispositivo.<br>
+                    - Daño en las conexiones o terminales.<br>
+                    - Variación brusca de la carga.
+                </td>
+            </tr>
+            <tr>
+                <td>⚙️ <strong>Falla en la conmutación</strong></td>
+                <td>El TRIAC no conmuta correctamente entre los estados de conducción y bloqueo en ambas
+                    direcciones.</td>
+                <td>
+                    - Exceso de corriente de carga.<br>
+                    - Frecuencia de conmutación incorrecta.<br>
+                    - Disparo ineficaz de la compuerta.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+---
