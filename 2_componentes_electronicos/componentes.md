@@ -315,7 +315,7 @@ Tomado de KhanAcademyEspañol
 
 #### 📝 Carta de Fallas del Inductor
 
-<div style="flex: 1; font-size: 0.5em; max-height: 900px; max-width: 100%;  overflow-y: auto; padding-left: 10px;">
+<div style="flex: 1; font-size: 0.6em; max-height: 900px; max-width: 100%;  overflow-y: auto; padding-left: 10px;">
 <table>
     <thead>
     <tr>
@@ -388,6 +388,152 @@ Tomado de KhanAcademyEspañol
                 - Sobrecargas térmicas.
             </td>
         </tr>
+        </tbody>
+    </table>
+</div>
+
+===
+
+### Resistor - Resistencia
+
+<img src="img/resistores/r_1.webp" alt="Resistor" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Resistencias discretas
+
+<img src="img/resistores/r_2.jpg" alt="resistencias discretas" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Resistencias SMD
+
+<img src="img/resistores/resistencias-smd-14w_1-26b38638.jpg" alt="resistencias smd" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" >
+
+---
+
+#### Redes SMD
+
+<img src="img/resistores/maxresdefault_480x480.webp" alt="redes smd" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;" >
+
+---
+
+#### Array SMD
+
+<img src="img/resistores/D_NQ_NP_614113-MLA44203582700_112020-O.webp" alt="Array SMD" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;>
+
+---
+
+#### Cálculos en Resistor
+
+<img src="img/resistores/r_calculos.png" alt="ecuaciones del resistor" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"/>
+<p style="flex: 1; font-size: 0.5em; overflow-y: auto; padding-left: 5px; color: white">Tomado de KhanAcademyEspañol</p>
+
+---
+
+#### Midiendo Resistencias
+
+<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+    <!-- Imagen a la izquierda -->
+    <div style="flex: 0 0 70%; text-align: center;">
+        <img src="img/resistores/Como-Medir-la-Resistencia-con-un-Multimetro.jpg"
+            alt="medir resistencia" style="max-height: 600px; width: auto; background: transparent;"
+            class="demo-logo">
+    </div>
+    <!-- Listado a la derecha con texto más pequeño y mejor ajuste -->
+    <div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
+        <ol>
+            <li>Con Multímetro en escala de ohmios - en escala cerca del valor nominal</li>
+            <li>Con medidor ESR</li>
+        </ol>
+        <hr>
+        <ol>⚠️ Evitar tocar con ambas manos, afecta la medición</ol>
+    </div>
+</div>
+
+---
+
+#### Carta de Fallas de la Resistencia
+
+<div style="flex: 1; font-size: 0.5em; max-height: 500px; max-width: 100%; overflow-y: auto; padding-left: 10px">
+    <table>
+        <thead>
+            <tr>
+                <th>⚠️ Falla</th>
+                <th>📝 Descripción</th>
+                <th>🔍 Posibles Causas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>🔥 <strong>Corto circuito</strong></td>
+                <td>La resistencia conduce demasiada corriente, lo que puede causar sobrecalentamiento o
+                    fallo en el
+                    circuito.</td>
+                <td>
+                    - Resistencia de valor inadecuado.<br>
+                    - Sobrecarga de corriente.<br>
+                    - Daños en el material resistivo.
+                </td>
+            </tr>
+            <tr>
+                <td>💨 <strong>Sobrecalentamiento</strong></td>
+                <td>La resistencia se calienta excesivamente, comprometiendo su capacidad de disipar
+                    energía.</td>
+                <td>
+                    - Valor de resistencia incorrecto.<br>
+                    - Ventilación insuficiente.<br>
+                    - Exceso de voltaje aplicado.
+                </td>
+            </tr>
+            <tr>
+                <td>💥 <strong>Rotura física</strong></td>
+                <td>La resistencia presenta daños físicos como grietas o ruptura.</td>
+                <td>
+                    - Impacto mecánico.<br>
+                    - Sobrecarga térmica.<br>
+                    - Ciclos repetidos de calentamiento y enfriamiento.
+                </td>
+            </tr>
+            <tr>
+                <td>⚡ <strong>Fallo de aislamiento</strong></td>
+                <td>Pérdida de aislamiento que causa cortocircuitos o fugas eléctricas.</td>
+                <td>
+                    - Humedad o contaminación.<br>
+                    - Desgaste del revestimiento.<br>
+                    - Exceso de voltaje aplicado.
+                </td>
+            </tr>
+            <tr>
+                <td>🔋 <strong>Variación en el valor de resistencia</strong></td>
+                <td>El valor de la resistencia cambia, afectando el rendimiento del circuito.</td>
+                <td>
+                    - Daño en el material resistivo.<br>
+                    - Sobrecarga continua.<br>
+                    - Exposición a altas temperaturas.
+                </td>
+            </tr>
+            <tr>
+                <td>🚫 <strong>Interrupción de circuito</strong></td>
+                <td>La resistencia deja de conducir corriente, interrumpiendo el flujo de energía en el
+                    circuito.
+                </td>
+                <td>
+                    - Rotura interna del material resistivo.<br>
+                    - Conexiones sueltas.<br>
+                    - Falla en terminales.
+                </td>
+            </tr>
+            <tr>
+                <td>⚙️ <strong>Inestabilidad térmica</strong></td>
+                <td>La resistencia muestra variaciones bruscas de temperatura, afectando su rendimiento.
+                </td>
+                <td>
+                    - Material resistivo defectuoso.<br>
+                    - Exceso de potencia disipada.<br>
+                    - Mala disipación de calor.
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>
