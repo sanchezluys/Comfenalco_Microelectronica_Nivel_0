@@ -294,7 +294,7 @@ Tomado de KhanAcademyEspañol
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
     <div style="flex: 0 0 60%; text-align: center;">
-        <img src="img/inductores/l_medir.webp" alt="medir inductancia" style="max-height: 500px; width: auto; background: transparent;" >
+        <img src="img/inductores/l_medir.webp" alt="medir inductancia" style="max-height: 800px; width: auto; background: transparent;" >
     </div>
     <div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
         <ol>
@@ -420,7 +420,7 @@ Tomado de KhanAcademyEspañol
 
 #### Array SMD
 
-<img src="img/resistores/D_NQ_NP_614113-MLA44203582700_112020-O.webp" alt="Array SMD" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;>
+<img src="img/resistores/D_NQ_NP_614113-MLA44203582700_112020-O.webp" alt="Array SMD" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
@@ -438,7 +438,7 @@ Tomado de KhanAcademyEspañol
     <div style="flex: 0 0 70%; text-align: center;">
         <img src="img/resistores/Como-Medir-la-Resistencia-con-un-Multimetro.jpg"
             alt="medir resistencia" style="max-height: 600px; width: auto; background: transparent;"
-            class="demo-logo">
+            >
     </div>
     <!-- Listado a la derecha con texto más pequeño y mejor ajuste -->
     <div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
@@ -455,7 +455,7 @@ Tomado de KhanAcademyEspañol
 
 #### Carta de Fallas de la Resistencia
 
-<div style="flex: 1; font-size: 0.5em; max-height: 500px; max-width: 100%; overflow-y: auto; padding-left: 10px">
+<div style="flex: 1; font-size: 0.6em; max-height: 900px; max-width: 100%; overflow-y: auto; padding-left: 10px">
     <table>
         <thead>
             <tr>
@@ -532,6 +532,219 @@ Tomado de KhanAcademyEspañol
                     - Material resistivo defectuoso.<br>
                     - Exceso de potencia disipada.<br>
                     - Mala disipación de calor.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+===
+
+### El Diodo
+
+<img src="img/diodos/d_1.jpg" alt="Diodos" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos discretos
+
+<img src="img/diodos/d_discretos.webp" alt="diodos discretos" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos discretos 2
+
+<img src="img/diodos/d_discretos_2.jpg" alt="diodos discretos2" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos de Potencia
+
+<img src="img/diodos/Diodos_de_potencia.jpg" alt="diodos de potencia" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos LED 1
+
+<img src="img/diodos/ejemplos_led.jpg" alt="diodos led"    style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodo LED 2
+
+<img src="img/diodos/diodo_led.png" alt="diodos smd1" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos LED SMD Comparación de Tamaños
+
+<img src="img/diodos/smd-led-size-comparison-2.jpg" alt="diodos led smd" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos SMD
+
+<img src="img/diodos/diodo_ss_14_1_a_40_v.jpg" alt="diodos smd2" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos SMD2
+
+<img src="img/diodos/d_2.png" alt="diodos smd2"  style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos SMD3
+
+<img src="img/diodos/41Pd8w0IpoL.jpg" alt="diodos smd3" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Diodos SMD4
+
+<img src="img/diodos/Pinagens-de-Diodos-SMD.png" alt="diodos smd4" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Union PN
+
+<img src="img/diodos/Diodo_pn_-_zona_de_carga_espacial.png" alt="union pn" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Union PN - Polarización
+
+<img src="img/diodos/polarizacion-directa-diodo-union-pn_786898-127.avif" alt="union pn polarización" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Obleas de Semiconductor
+
+<img src="img/diodos/obleas-de-silicio-1.jpg" alt="obleas" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### SMD Equivalencias
+
+<img src="img/diodos/d_3.png" alt="smd equivalencia" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Simbolos
+
+<img src="img/diodos/Tipos-de-Diodos.jpg" alt="simbolos" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Hoja de Fabricante o Data DataSheet
+
+<img src="img/diodos/d_datasheet_1.png" alt="datasheet" style="height: 800px; width: 90%; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### Midiendo Diodos
+
+<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+    <!-- Imagen a la izquierda -->
+    <div style="flex: 0 0 70%; text-align: center;">
+        <img src="img/diodos/teste-diodo-retificador.jpg" alt="medir diodos" style="max-height: 800px; width: auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+    </div>
+    <!-- Listado a la derecha con texto más pequeño y mejor ajuste -->
+    <div style="flex: 1; font-size: 0.6em; max-height: 400px; overflow-y: auto; padding-left: 5px;">
+        <ol>
+            <li>Con Multímetro en escala de ohmios</li>
+            <li>Con Multímetro en escala de diodos</li>
+            <li>Con medidor ESR</li>
+        </ol>
+        <hr>
+        <ol>⚠️ El medidor debe ser capaz de entregar en la medición un voltaje mayor al voltaje de
+            polarización (Vf) en directo para poder medir</ol>
+    </div>
+</div>
+
+---
+
+#### Carta de Fallas del Diodo
+
+<div style="flex: 1; font-size: 0.6em; max-height: 900px; max-width: 100%; overflow-y: auto; padding-left: 10px;">
+    <table>
+        <thead>
+            <tr>
+                <th>⚠️ Falla</th>
+                <th>📝 Descripción</th>
+                <th>🔍 Posibles Causas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>🔥 <strong>Corto circuito</strong></td>
+                <td>El diodo permite el paso de corriente en ambas direcciones, perdiendo su capacidad
+                    de
+                    rectificación.</td>
+                <td>
+                    - Sobrecarga de corriente.<br>
+                    - Exceso de temperatura.<br>
+                    - Diodo defectuoso o envejecido.
+                </td>
+            </tr>
+            <tr>
+                <td>💨 <strong>Sobrecalentamiento</strong></td>
+                <td>El diodo se calienta más allá de sus especificaciones, comprometiendo su
+                    funcionamiento.</td>
+                <td>
+                    - Exceso de corriente.<br>
+                    - Mala disipación de calor.<br>
+                    - Uso prolongado a alta potencia.
+                </td>
+            </tr>
+            <tr>
+                <td>💥 <strong>Fallo de polarización inversa</strong></td>
+                <td>El diodo no bloquea correctamente el paso de corriente en polarización inversa.</td>
+                <td>
+                    - Voltaje inverso excesivo.<br>
+                    - Degradación del material semiconductor.<br>
+                    - Cortocircuito interno.
+                </td>
+            </tr>
+            <tr>
+                <td>⚡ <strong>Fuga de corriente</strong></td>
+                <td>El diodo permite el paso de una pequeña cantidad de corriente en polarización
+                    inversa.</td>
+                <td>
+                    - Daño en la unión del diodo.<br>
+                    - Alta temperatura ambiental.<br>
+                    - Defectos en el proceso de fabricación.
+                </td>
+            </tr>
+            <tr>
+                <td>🔋 <strong>Caída de tensión excesiva</strong></td>
+                <td>El voltaje en el diodo es más alto de lo normal cuando está en conducción directa.
+                </td>
+                <td>
+                    - Daño interno en la unión del diodo.<br>
+                    - Corriente de conducción demasiado alta.<br>
+                    - Degradación del material semiconductor.
+                </td>
+            </tr>
+            <tr>
+                <td>🚫 <strong>Apertura del circuito</strong></td>
+                <td>El diodo deja de conducir corriente incluso en polarización directa, interrumpiendo
+                    el flujo en
+                    el circuito.</td>
+                <td>
+                    - Daño físico en el diodo.<br>
+                    - Conexiones sueltas o dañadas.<br>
+                    - Quemado por sobrecorriente.
+                </td>
+            </tr>
+            <tr>
+                <td>⚙️ <strong>Inestabilidad térmica</strong></td>
+                <td>El diodo muestra variaciones de temperatura bruscas que afectan su capacidad de
+                    operación.</td>
+                <td>
+                    - Material semiconductor defectuoso.<br>
+                    - Exceso de corriente disipada.<br>
+                    - Ventilación insuficiente.
                 </td>
             </tr>
         </tbody>
