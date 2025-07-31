@@ -838,17 +838,15 @@ Tomado de KhanAcademyEspañol
 
 #### SCR Activación
 
-<img src="img/scr/scr_test_4.png" alt="scr test 3" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
-    >
+<img src="img/scr/scr_test_4.png" alt="scr test 3" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
 ---
 
 #### SCRs Queda Enganchado
 
-<img src="img/scr/scr_test_5.png" alt="scr test 4" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;"
-    >
+<img src="img/scr/scr_test_5.png" alt="scr test 4" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
 
----            
+---
 
 #### Carta de Fallas del SCR
 
@@ -940,7 +938,7 @@ Tomado de KhanAcademyEspañol
     </table>
 </div>
 
----          
+---
 
 #### El TRIAC
 
