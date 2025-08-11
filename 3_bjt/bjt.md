@@ -36,14 +36,18 @@
 
 #### BJT VENTAJAS
 
-<li>Pueden soportar altas tensiones</li>
-<li>En saturación presentan baja caída de tensión</li>
+<ol>
+    <li>Pueden soportar altas tensiones</li>
+    <li>En saturación presentan baja caída de tensión</li>
+</ol>
 
 ---
 
 #### BJT DESVENTAJAS
 
-<li>Generan altos niveles de ruido</li>
-<li>Consumen mas energia</li>
-<li>Son sensibles a las altas temperaturas</li>
-<li>Poca ganancia al aumentar la relación v/i</li>
+<ol>
+    <li>Generan altos niveles de ruido</li>
+    <li>Consumen mas energia</li>
+    <li>Son sensibles a las altas temperaturas</li>
+    <li>Poca ganancia al aumentar la relación v/i</li>
+</ol>
