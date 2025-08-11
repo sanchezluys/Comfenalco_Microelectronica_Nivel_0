@@ -39,3 +39,15 @@ Circuitos integrados programables
 #### MICROS PROGRAMABLES FPGA HARDWARE
 
 <img src="6_micros/image/micros/1754951517771.png" alt="dig7" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### MICROS NPU UNIDAD NEURAL DE PROCESAMIENTO
+
+<img src="6_micros/image/micros/1754952040220.png" alt="dig7" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
+
+---
+
+#### CPU GPU NPU
+
+<img src="6_micros/image/micros/1754952152999.png" alt="dig7" style="height: 800px; margin: 0 auto 4rem auto; background: transparent; box-shadow: 0 0 10px 10px rgb(150, 156, 238); border-radius: 20px;">
