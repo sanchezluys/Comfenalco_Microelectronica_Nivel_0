@@ -36,24 +36,24 @@
 
 #### VENTAJAS FET
 
-<lo>
+<ol>
     <li>Alta impedancia de entrada</li>
     <li>Generan menor ruido que los bjt</li>
     <li>Son más estables ante los cambios de temperatura </li>
     <li>Más pequeños</li>
     <li>Pueden manejar corrientes mayores a los bjt</li>
     <li>Consumen muy poca potencia</li>
-</lo>
+</ol>
 
 ---
 
 #### DESVENTAJAS FET
 
-<lo>
+<ol>
     <li>Son sensibles a la estática, se dañan por ella.</li>
     <li>Pobre linealidad en su comportamiento</li>
     <li>Respuesta pobre en alta frecuencia</li>
-</lo>
+</ol>
 
 ---
 
